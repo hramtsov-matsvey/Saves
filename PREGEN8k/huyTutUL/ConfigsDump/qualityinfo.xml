@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<qualityinfo><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+		<quality key="0" color="E5E5E5" /><!--[0] No Quality -->
+		<quality key="1" color="B29877" /><!--[H] 1-10	Brown		Junk -->
+		<quality key="2" color="BCBCBC" /><!--[G] 11-20	Gray		Questionable -->
+		<quality key="3" color="E5E5E5" /><!--[F] 21-30	White		Simple -->
+		<quality key="4" color="15EE1C" /><!--[E] 31-40	Lime Green	Common -->
+		<quality key="5" color="22E4AC" /><!--[D] 41-50	Aqua Green	Uncommon -->
+		<quality key="6" color="338CFF" /><!--[C] 51-60	Blue		Rare -->
+		<quality key="7" color="E559FF" /><!--[B] 61-70	Purple		Exceptional -->
+		<quality key="8" color="FF6F3A" /><!--[A] 71-80	Crimson		Epic -->
+		<quality key="9" color="FFCC11" /><!--[S] 81-90	Gold		Legendary -->
+	</qualityinfo>

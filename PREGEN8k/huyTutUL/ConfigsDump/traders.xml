@@ -1,0 +1,3580 @@
+﻿<traders buy_markup="3" sell_markdown=".2" quality_mod="1,9" currency_item="casinoCoin"><!--Element contents replaced by: "UndeadLegacy_ContentModule01"-->
+
+<trader_item_groups>
+	
+	<trader_item_group name="groupEngines">
+		<item name="smallEngine" />
+		<item name="ulmResourceEngineV4" />
+		<item name="ulmResourceEngineV6" />
+		<item name="ulmResourceEngineV8" />
+		<item name="ulmResourceEngineV8M" />
+		<item name="ulmResourceEngineV12" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleWheels">
+		<item name="ulmResourceBicycleWheel" />
+		<item name="ulmResourceMinibikeWheel" />
+		<item name="ulmResourceGyrocopterWheel" />
+		<item name="ulmResourceMotorcycleWheel" />
+		<item name="ulmResourceCarWheel" prob="2" />
+		<item name="ulmResourceTruckWheel" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleDuneRunner">							<!-- Scout Buggy, Dune Runner -->
+		<item name="ulmResourceDuneRunnerFrame" />
+		<item name="ulmResourceDuneRunnerSuspension" />
+		<item name="ulmResourceDuneRunnerSeat" />
+		<item name="ulmResourceDuneRunnerDashboard" />
+		<item name="ulmVehicleDuneRunner" prob=".1" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleHelicopterDH800">						<!-- Helicopter, Large DH-800  -->
+		<item name="ulmVehicleHelicopterDH1" />
+		<item name="ulmVehicleHelicopterDH2" />
+		<item name="ulmVehicleHelicopterDH3" />
+		<item name="ulmVehicleHelicopterDH4" />
+		<item name="ulmVehicleHelicopterDH5" />
+		<item name="ulmVehicleHelicopterDH6" />
+		<item name="ulmVehicleHelicopterDH7" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleHelicopterRaven">						<!-- Helicopter, Small Raven -->
+		<item name="ulmVehicleHelicopterRaven" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleSedan2">								<!-- Sedan, Modern, Cheap -->
+		<item name="ulmVehicleSedan2White" />
+		<item name="ulmVehicleSedan2Black" />
+		<item name="ulmVehicleSedan2Beige" />
+		<item name="ulmVehicleSedan2Blue" />
+		<item name="ulmVehicleSedan2Green" />
+		<item name="ulmVehicleSedan2GreenBlack" />
+		<item name="ulmVehicleSedan2Orange" />
+		<item name="ulmVehicleSedan2Red" />
+		<item name="ulmVehicleSedan2Police" />
+		<item name="ulmVehicleSedan2Taxi" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleSedan3">								<!-- Sedan, Classic -->
+		<item name="ulmVehicleSedan3White" />
+		<item name="ulmVehicleSedan3Black" />
+		<item name="ulmVehicleSedan3Blue" />
+		<item name="ulmVehicleSedan3Beige" />
+		<item name="ulmVehicleSedan3Brown" />
+		<item name="ulmVehicleSedan3Gray" />
+		<item name="ulmVehicleSedan3Green" />
+		<item name="ulmVehicleSedan3Orange" />
+		<item name="ulmVehicleSedan3Red" />
+		<item name="ulmVehicleSedan3Yellow" />
+		<item name="ulmVehicleSedan3Mixed1" />
+		<item name="ulmVehicleSedan3Mixed2" />
+		<item name="ulmVehicleSedan3Mixed3" />
+		<item name="ulmVehicleSedan3Mixed4" />
+		<item name="ulmVehicleSedan3Mixed5" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleCoupe1">								<!-- Classic Coupe A -->
+		<item name="ulmVehicleCoupe1White" />
+		<item name="ulmVehicleCoupe1WhiteStripe" />
+		<item name="ulmVehicleCoupe1Black" />
+		<item name="ulmVehicleCoupe1BlackStripe" />
+		<item name="ulmVehicleCoupe1Red" />
+		<item name="ulmVehicleCoupe1RedStripe" />
+		<item name="ulmVehicleCoupe1Beige" />
+		<item name="ulmVehicleCoupe1Blue" />
+		<item name="ulmVehicleCoupe1BlueStripe" />
+		<item name="ulmVehicleCoupe1Gray" />
+		<item name="ulmVehicleCoupe1Green" />
+		<item name="ulmVehicleCoupe1Orange" />
+		<item name="ulmVehicleCoupe1OrangeStripe" />
+		<item name="ulmVehicleCoupe1Purple" />
+		<item name="ulmVehicleCoupe1Cherry" />
+		<item name="ulmVehicleCoupe1Yellow" />
+		<item name="ulmVehicleCoupe1YellowStripe" />
+		<item name="ulmVehicleCoupe1Mixed1" />
+		<item name="ulmVehicleCoupe1Mixed2" />
+		<item name="ulmVehicleCoupe1Mixed3" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleSedan1">									<!-- Vanilla Sedan -->
+		<item name="ulmVehicleSedan1White" />
+		<item name="ulmVehicleSedan1Black" />
+		<item name="ulmVehicleSedan1Police" />
+		<item name="ulmVehicleSedan1Yellow" />
+		<item name="ulmVehicleSedan1Green" />
+		<item name="ulmVehicleSedan1Mixed" />
+		<item name="ulmVehicleSedan1Red" />
+		<item name="ulmVehicleSedan1Blue" />
+		<item name="ulmVehicleSedan1PoliceWithLights" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleSUV">									<!-- Modern SUV -->
+		<item name="ulmVehicleSUV1White" />
+		<item name="ulmVehicleSUV1Gray" />
+		<item name="ulmVehicleSUV1Black" />
+		<item name="ulmVehicleSUV1Blue" />
+		<item name="ulmVehicleSUV1Green" />
+		<item name="ulmVehicleSUV1Red" />
+		<item name="ulmVehicleSUV1Cherry" />
+		<item name="ulmVehicleSUV1Pink" />
+		<item name="ulmVehicleSUV1Orange" />
+		<item name="ulmVehicleSUV1Beige" />
+		<item name="ulmVehicleSUV1Police" />
+		<item name="ulmVehicleSUV1Security" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleHumvee">								<!-- Humvee -->
+		<item name="ulmVehicleHumveeSnow" />
+		<item name="ulmVehicleHumveeSnowCargo" />
+		<item name="ulmVehicleHumveeDesert" />
+		<item name="ulmVehicleHumveeDesertCargo" />
+		<item name="ulmVehicleHumveeJungle" />
+		<item name="ulmVehicleHumveeJungleCargo" />
+		<item name="ulmVehicleHumveeBurnt" />
+		<item name="ulmVehicleHumveeBurntCargo" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleMuscle">								<!-- Muscle -->
+		<item name="ulmVehicleMuscle1White" />
+		<item name="ulmVehicleMuscle1WhiteStripe" />
+		<item name="ulmVehicleMuscle1Black" />
+		<item name="ulmVehicleMuscle1BlackStripe" />
+		<item name="ulmVehicleMuscle1Blue" />
+		<item name="ulmVehicleMuscle1BlueStripe" />
+		<item name="ulmVehicleMuscle1Gray" />
+		<item name="ulmVehicleMuscle1GrayStripe" />
+		<item name="ulmVehicleMuscle1Red" />
+		<item name="ulmVehicleMuscle1RedStripe" />
+		<item name="ulmVehicleMuscle1Yellow" />
+		<item name="ulmVehicleMuscle1YellowStripe" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleMinivan">								<!-- Minivan -->
+		<item name="ulmVehicleMinivan1White" />
+		<item name="ulmVehicleMinivan1Gray" />
+		<item name="ulmVehicleMinivan1Black" />
+		<item name="ulmVehicleMinivan1Blue" />
+		<item name="ulmVehicleMinivan1Cyan" />
+		<item name="ulmVehicleMinivan1Green" />
+		<item name="ulmVehicleMinivan1Purple" />
+		<item name="ulmVehicleMinivan1Pink" />
+		<item name="ulmVehicleMinivan1Yellow" />
+		<item name="ulmVehicleMinivan1Orange" />
+		<item name="ulmVehicleMinivan1Brown" />
+		<item name="ulmVehicleMinivan1Red" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleMilitaryTruck">							<!-- Military Truck -->
+		<item name="ulmVehicleMilitaryTruckDesertTarp1" />
+		<item name="ulmVehicleMilitaryTruckDesertTarp2" />
+		<item name="ulmVehicleMilitaryTruckDesertTarp3" />
+		<item name="ulmVehicleMilitaryTruckDesertRails" />
+		<item name="ulmVehicleMilitaryTruckCamoTarp1" />
+		<item name="ulmVehicleMilitaryTruckCamoTarp2" />
+		<item name="ulmVehicleMilitaryTruckCamoTarp3" />
+		<item name="ulmVehicleMilitaryTruckCamoRails" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleBicycle">								<!-- Bicycle -->
+		<item name="vehicleBicycleChassis" />
+		<item name="vehicleBicycleHandlebars" />
+		<item name="vehicleBicyclePlaceable" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleMinibike">								<!-- Minibike -->
+		<item name="cntShoppingBasketEmpty" />
+		<item name="vehicleMinibikeChassis" />
+		<item name="vehicleMinibikeHandlebars" />
+		<item name="vehicleMinibikePlaceable" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleWanderer">							<!-- Motorcycle -->
+		<item name="vehicleMotorcycleChassis" />
+		<item name="vehicleMotorcycleHandlebars" />
+		<item name="vehicleMotorcyclePlaceable" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleRenegade">							<!-- Motorcycle Classic -->
+		<item name="ulmVehicleMotorcycle2White" />
+		<item name="ulmVehicleMotorcycle2Gray" />
+		<item name="ulmVehicleMotorcycle2Black" />
+		<item name="ulmVehicleMotorcycle2LightBlue" />
+		<item name="ulmVehicleMotorcycle2DarkBlue" />
+		<item name="ulmVehicleMotorcycle2RetroGreen" />
+		<item name="ulmVehicleMotorcycle2LimeGreen" />
+		<item name="ulmVehicleMotorcycle2ForestGreen" />
+		<item name="ulmVehicleMotorcycle2Purple" />
+		<item name="ulmVehicleMotorcycle2Pink" />
+		<item name="ulmVehicleMotorcycle2Yellow" />
+		<item name="ulmVehicleMotorcycle2Orange" />
+		<item name="ulmVehicleMotorcycle2Brown" />
+		<item name="ulmVehicleMotorcycle2Red" />
+		<item name="ulmVehicleMotorcycle2Cherry" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleThunderbird">						<!-- Dirt Bike -->
+		<item name="ulmVehicleDirtBike1White" />
+		<item name="ulmVehicleDirtBike1Gray" />
+		<item name="ulmVehicleDirtBike1Black" />
+		<item name="ulmVehicleDirtBike1LightBlue" />
+		<item name="ulmVehicleDirtBike1DarkBlue" />
+		<item name="ulmVehicleDirtBike1Cyan" />
+		<item name="ulmVehicleDirtBike1RetroGreen" />
+		<item name="ulmVehicleDirtBike1LimeGreen" />
+		<item name="ulmVehicleDirtBike1ForestGreen" />
+		<item name="ulmVehicleDirtBike1Purple" />
+		<item name="ulmVehicleDirtBike1Pink" />
+		<item name="ulmVehicleDirtBike1Yellow" />
+		<item name="ulmVehicleDirtBike1Orange" />
+		<item name="ulmVehicleDirtBike1Brown" />
+		<item name="ulmVehicleDirtBike1Red" />
+		<item name="ulmVehicleDirtBike1Cherry" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleQuadBike">							<!-- Quad Bike -->
+		<item name="ulmVehicleQuadBike1Desert" />
+		<item name="ulmVehicleQuadBike1Raider" />
+		<item name="ulmVehicleQuadBike1HotRod" />
+		<item name="ulmVehicleQuadBike1Digital" />
+		<item name="ulmVehicleQuadBike1Snow" />
+		<item name="ulmVehicleQuadBike1Woodland" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleGokart">							<!-- Gokart -->
+		<item name="ulmVehicleGokart1White" />
+		<item name="ulmVehicleGokart1Gray" />
+		<item name="ulmVehicleGokart1Black" />
+		<item name="ulmVehicleGokart1LightBlue" />
+		<item name="ulmVehicleGokart1DarkBlue" />
+		<item name="ulmVehicleGokart1Cyan" />
+		<item name="ulmVehicleGokart1RetroGreen" />
+		<item name="ulmVehicleGokart1LimeGreen" />
+		<item name="ulmVehicleGokart1ForestGreen" />
+		<item name="ulmVehicleGokart1Purple" />
+		<item name="ulmVehicleGokart1Pink" />
+		<item name="ulmVehicleGokart1Yellow" />
+		<item name="ulmVehicleGokart1Orange" />
+		<item name="ulmVehicleGokart1Brown" />
+		<item name="ulmVehicleGokart1Red" />
+		<item name="ulmVehicleGokart1Cherry" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleGyrocopter">						<!-- Gyrocopter -->
+		<item name="vehicleGyroCopterChassis" />
+		<item name="vehicleGyroCopterAccessories" />
+		<item name="vehicleGyrocopterPlaceable" prob=".1" /></trader_item_group>
+    
+	<trader_item_group name="groupBooksArmorLeather" count="1">
+		<item name="armorLeatherHelmetBlueprint" />
+		<item name="armorLeatherChestBlueprint" />
+		<item name="armorLeatherGlovesBlueprint" />
+		<item name="armorLeatherLegsBlueprint" />
+		<item name="armorLeatherBootsBlueprint" /></trader_item_group>
+    
+	<trader_item_group name="groupBooksArmorMilitary" count="1">
+		<item name="armorMilitaryHelmetBlueprint" />
+		<item name="armorMilitaryChestBlueprint" />
+		<item name="armorMilitaryGlovesBlueprint" />
+		<item name="armorMilitaryLegsBlueprint" />
+		<item name="armorMilitaryBootsBlueprint" /></trader_item_group>
+    
+	<trader_item_group name="groupBooksArmorIron" count="1">
+		<item name="armorIronHelmetBlueprint" />
+		<item name="armorIronChestBlueprint" />
+		<item name="armorIronGlovesBlueprint" />
+		<item name="armorIronLegsBlueprint" />
+		<item name="armorIronBootsBlueprint" /></trader_item_group>
+    
+	<trader_item_group name="groupBooksArmorSteel" count="1">
+		<item name="armorSteelHelmetBlueprint" />
+		<item name="armorSteelChestBlueprint" />
+		<item name="armorSteelGlovesBlueprint" />
+		<item name="armorSteelLegsBlueprint" />
+		<item name="armorSteelBootsBlueprint" /></trader_item_group>
+	
+	
+	
+	<trader_item_group name="modsMeleeCommon" count="1">
+		<item name="modMeleeSerratedBlade" />
+		<item name="modMeleeWeightedHead" />
+		<item name="modFuelTankSmall" />
+		<item name="modMeleeStructuralBrace" quality="1,30" />
+		<item name="modMeleeGraveDigger" quality="1,30" />
+		<item name="modMeleeWoodSplitter" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsMeleeRare" count="1">
+		<item name="modMeleeClubBarbedWire" />
+		<item name="modMeleeFortifyingGrip" />
+		<item name="modFuelTankLarge" />
+		<item name="modMeleeFiremansAxeMod" quality="1,30" />
+		<item name="modMeleeBunkerBuster" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsMeleeEpic" count="1">
+		<item name="modMeleeClubMetalSpikes" />
+		<item name="modMeleeErgonomicGrip" />
+		<item name="modMeleeTemperedBlade" quality="1,30" />
+		<item name="modMeleeIronBreaker" quality="1,30" />
+		<item name="modGunMeleeRadRemover" prob=".25" />
+		<item name="modMeleeDiamondTip" quality="1,30" prob=".25" />
+		<item name="modGunMeleeBlessedMetal" quality="1,30" prob=".25" />
+		<item name="ulmModChainsawChainTitanium" quality="1,30" prob=".25" /></trader_item_group>
+
+	<trader_item_group name="modsGunsCommon" count="1">
+		<item name="modGunChoke" />
+		<item name="modGunDuckbill" />
+		<item name="modGunBipod" />
+		<item name="modGunFlashlight" />
+		<item name="modGunForegrip" />
+		<item name="modGunScopeSmall" />
+		<item name="modShotgunSawedOffBarrel" />
+		<item name="modGunTriggerGroupSemi" />
+		<item name="modGunMagazineExtender" quality="1,30" />
+		<item name="modGunMeleeTheHunter" quality="1,30" />
+		<item name="modGunMuzzleBrake" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsGunsRare" count="1">
+		<item name="modGunBarrelExtender" />
+		<item name="modGunCrippleEm" />
+		<item name="modGunLaserSight" />
+		<item name="modGunReflexSight" />
+		<item name="modGunScopeMedium" />
+		<item name="modGunSoundSuppressorSilencer" />
+		<item name="modGunTriggerGroupBurst3" />
+		<item name="modGunRetractingStock" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsGunsEpic" count="1">
+		<item name="modGunScopeLarge" />
+		<item name="modGunTriggerGroupAutomatic" />
+		<item name="modGunBowPolymerString" quality="1,30" />
+		<item name="modGunBowArrowRest" quality="1,30" />
+		<item name="modGunMeleeRadRemover" prob=".25" />
+		<item name="modGunDrumMagazineExtender" quality="1,30" prob=".25" />
+		<item name="modGunMeleeBlessedMetal" quality="1,30" prob=".25" /></trader_item_group>
+
+	<trader_item_group name="modArmorCosmetics">
+		<item name="modArmorSkullCap" />
+		<item name="modArmorPressboyCap" />
+		<item name="modArmorBallCap" />
+		<item name="modArmorCowboyHat" /></trader_item_group>
+	
+	<trader_item_group name="modsArmorCommon" count="1">
+		<item group="modArmorCosmetics" prob="0.33" />
+		<item name="modArmorHelmetLight" />
+		<item name="modArmorInsulatedLiner" quality="1,30" />
+		<item name="modArmorCoolingMesh" quality="1,30" />
+		<item name="modArmorImprovedFittings" quality="1,30" />
+		<item name="modArmorPlatingBasic" quality="1,30" />
+		<item name="modArmorStoragePocket" quality="1,30" />
+		<item name="modClothingStoragePocket" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsArmorRare" count="1">
+		<item name="modArmorWaterPurifier" />
+		<item name="modArmorImpactBracing" />
+		<item name="modArmorCustomizedFittings" quality="1,30" />
+		<item name="modArmorPlatingReinforced" quality="1,30" />
+		<item name="modArmorMuffledConnectors" quality="1,30" />
+		<item name="modArmorDoubleStoragePocket" quality="1,30" />
+		<item name="modClothingCargoStoragePocket" quality="1,30" />
+		<item name="ulmModArmorEnforcerBelt" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsArmorEpic" count="1">
+		<item name="modArmorBandolier" />
+		<item name="modArmorAdvancedMuffledConnectors" quality="1,30" />
+		<item name="modArmorTripleStoragePocket" quality="1,30" />
+		<item name="ulmModArmorBackpackBasic" quality="1,30" />
+		<item name="ulmModArmorBroadcastRadio" quality="1,30" />
+		<item name="ulmModArmorEnforcerVest" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="modsCommon" count="1">
+		<item group="modsGunsCommon" />
+		<item group="modsMeleeCommon" />
+		<item group="modsArmorCommon" /></trader_item_group>
+	
+	<trader_item_group name="modsRare" count="1">
+		<item group="modsGunsRare" />
+		<item group="modsMeleeRare" />
+		<item group="modsArmorRare" /></trader_item_group>
+	
+	<trader_item_group name="modsEpic" count="1">
+		<item group="modsGunsEpic" />
+		<item group="modsMeleeEpic" />
+		<item group="modsArmorEpic" /></trader_item_group>
+
+	<trader_item_group name="modsGuns" count="1">
+		<item group="modsGunsCommon" prob="0.8" />
+		<item group="modsGunsRare" prob="0.13" />
+		<item group="modsGunsEpic" prob="0.07" /></trader_item_group>
+
+	<trader_item_group name="modsMelee" count="1">
+		<item group="modsMeleeCommon" prob="0.8" />
+		<item group="modsMeleeRare" prob="0.13" />
+		<item group="modsMeleeEpic" prob="0.07" /></trader_item_group>
+
+	<trader_item_group name="modsArmor" count="1">
+		<item group="modsArmorCommon" prob="0.8" />
+		<item group="modsArmorRare" prob="0.13" />
+		<item group="modsArmorEpic" prob="0.07" /></trader_item_group>
+
+	<trader_item_group name="modsT1SecretStash" count="1">
+		<item group="modsCommon" prob="0.85" />
+		<item group="modsRare" prob="0.1" />
+		<item group="modsEpic" prob="0.05" /></trader_item_group>
+
+	<trader_item_group name="modsT2SecretStash" count="1">
+		<item group="modsCommon" prob="0.8" />
+		<item group="modsRare" prob="0.13" />
+		<item group="modsEpic" prob="0.07" /></trader_item_group>
+
+	<trader_item_group name="modsT3SecretStash" count="1">
+		<item group="modsCommon" prob="0.75" />
+		<item group="modsRare" prob="0.15" />
+		<item group="modsEpic" prob="0.1" /></trader_item_group>
+
+	<trader_item_group name="modsT4SecretStash" count="1">
+		<item group="modsCommon" prob="0.7" />
+		<item group="modsRare" prob="0.18" />
+		<item group="modsEpic" prob="0.12" /></trader_item_group>
+
+	<trader_item_group name="modsT5SecretStash" count="1">
+		<item group="modsCommon" prob="0.65" />
+		<item group="modsRare" prob="0.2" />
+		<item group="modsEpic" prob="0.15" /></trader_item_group>
+
+	<trader_item_group name="apparelPants">
+		<item name="apparelDenimPants" />
+		<item name="apparelArmyPants" />
+		<item name="apparelGothPants" />
+		<item name="apparelDenimShortsPants" />
+		<item name="apparelSkirt" />
+		<item name="apparelOveralls" />
+		<item name="apparelSuitPants" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="apparelCoats">
+		<item name="apparelCoatPufferCoat" />
+		<item name="apparelCoatLeatherDuster" />
+		<item name="apparelSuitJacket" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="apparelShirts">
+		<item name="apparelLongShirt" />
+		<item name="apparelArmyShirt" />
+		<item name="apparelTankTop" />
+		<item name="apparelHoodySweatshirt" />
+		<item name="apparelSweatshirt" />
+		<item name="apparelTShirtPlain" /></trader_item_group>
+
+	<trader_item_group name="apparelHats">
+		<item name="apparelCowboyHat" />
+		<item name="apparelPressboyCap" />
+		<item name="apparelSkullCap" />
+		<item name="apparelBallCap" />
+		<item name="modArmorBallCap" prob=".2" />
+		<item name="modArmorSkullCap" prob=".2" />
+		<item name="modArmorPressboyCap" prob=".2" />
+		<item name="armorClothHat" quality="1,40" />
+		<item name="armorFootballHelmet" quality="1,40" /></trader_item_group>
+
+	<trader_item_group name="apparelBoots">
+		<item name="apparelCowboyBoots" />
+		<item name="apparelWornBoots" />
+		<item name="apparelGothBoots" />
+		<item name="apparelSuitDressShoes" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="apparelFace">
+		<item name="apparelShades" />
+		<item name="apparelToughGuySunglasses" />
+		<item name="apparelNerdGlasses" />
+		<item name="apparelSkiGoggles" />
+		<item name="apparelAviatorGoggles" />
+		<item name="apparelBandana" />
+		<item name="apparelFacialPiercings" prob="0.1" /></trader_item_group>
+
+	<trader_item_group name="apparelHazmat" count="1,2">
+		<item name="apparelHazmatBoots" />
+		<item name="apparelHazmatPants" />
+		<item name="apparelHazmatJacket" />
+		<item name="apparelHazmatGloves" />
+		<item name="apparelHazmatMask" /></trader_item_group>
+
+	<trader_item_group name="groupClothing">
+		<item group="apparelFace" />
+		<item group="apparelCoats" />
+		<item group="apparelShirts" />
+		<item group="apparelPants" />
+		<item group="apparelHats" />
+		<item group="apparelBoots" />
+		<item group="apparelHazmat" prob="0.1" /></trader_item_group>
+
+
+	<trader_item_group name="groupArmorCloth">
+		<item name="armorClothHat" quality="1,50" />
+		<item name="armorClothPants" quality="1,50" />
+		<item name="armorClothJacket" quality="1,50" />
+		<item name="armorClothBoots" quality="1,50" />
+		<item name="armorClothGloves" quality="1,50" /></trader_item_group>
+
+	<trader_item_group name="groupArmorLeather">
+		<item name="armorLeatherBoots" quality="1,50" />
+		<item name="armorLeatherPants" quality="1,50" />
+		<item name="armorLeatherChest" quality="1,50" />
+		<item name="armorLeatherGloves" quality="1,50" />
+		<item name="armorLeatherHood" quality="1,50" />
+		<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" quality="1,50" /></trader_item_group>
+
+	<trader_item_group name="groupArmorMilitary">
+		<item name="armorMilitaryGloves" quality="1,50" />
+		<item name="armorMilitaryHelmet" quality="1,50" mods="modArmorHelmetLight" mod_chance=".2" />
+		<item name="armorMilitaryBoots" quality="1,50" />
+		<item name="armorMilitaryLegs" quality="1,50" />
+		<item name="armorMilitaryVest" quality="1,50" />
+		<item name="apparelNightvisionGoggles" /></trader_item_group>
+
+	<trader_item_group name="groupArmorLight">
+		<item group="groupArmorCloth" prob="0.5" />
+		<item group="groupArmorLeather" prob="0.3" />
+		<item group="groupArmorMilitary" prob="0.2" /></trader_item_group>
+
+
+	<trader_item_group name="groupArmorHeavyT0">
+		<item name="armorScrapBoots" quality="1,50" />
+		<item name="armorScrapLegs" quality="1,50" />
+		<item name="armorScrapGloves" quality="1,50" />
+		<item name="armorScrapChest" quality="1,50" />
+		<item name="armorScrapHelmet" quality="1,50" /></trader_item_group>
+
+	<trader_item_group name="groupArmorHeavyT1">
+		<item name="armorIronGloves" quality="1,50" />
+		<item name="armorIronHelmet" quality="1,50" />
+		<item name="armorIronBoots" quality="1,50" />
+		<item name="armorIronLegs" quality="1,50" />
+		<item name="armorIronChest" quality="1,50" /></trader_item_group>
+
+	<trader_item_group name="groupArmorHeavyT2">
+		<item name="armorSteelBoots" quality="1,50" />
+		<item name="armorSteelLegs" quality="1,50" />
+		<item name="armorSteelChest" quality="1,50" />
+		<item name="armorSteelGloves" quality="1,50" />
+		<item name="armorSwatHelmet" quality="1,50" mods="modArmorHelmetLight" mod_chance=".2" />
+		<item name="armorMiningHelmet" quality="1,50" mods="modArmorHelmetLight" mod_chance="1" /></trader_item_group>
+
+	<trader_item_group name="groupArmorHeavy">
+		<item group="groupArmorHeavyT0" prob="0.5" />
+		<item group="groupArmorHeavyT1" prob="0.3" />
+		<item group="groupArmorHeavyT2" prob="0.2" /></trader_item_group>
+
+	<trader_item_group name="groupArmor">
+		<item group="groupArmorLight" />
+		<item group="groupArmorHeavy" /></trader_item_group>
+
+	<trader_item_group name="groupMedicineCommon" count="1">
+		<item name="medicalBandage" />
+		<item name="medicalFirstAidBandage" count="1,4" />
+		<item name="drugPainkillers" />
+		<item name="medicalBloodBag" count="2,4" />
+		<item name="medicalSplint" />
+		<item name="drugVitamins" />
+		<item name="drinkJarGrainAlcohol" /></trader_item_group>
+
+	<trader_item_group name="groupMedicineRare" count="1">
+		<item name="medicalFirstAidKit" />
+		<item name="toolBeaker" />
+		<item name="drugAntibiotics" />
+		<item name="drugFortBites" />
+		<item name="drugRecog" />
+		<item name="drugSteroids" />
+		<item name="drinkJarGrandpasMoonshine" />
+		<item name="drinkJarGrandpasAwesomeSauce" />
+		<item name="drinkJarGrandpasLearningElixir" />
+		<item name="apparelCigar" /></trader_item_group>
+
+	<trader_item_group name="groupMedicineAll" count="1">
+		<item group="groupMedicineCommon" />
+		<item group="groupMedicineRare" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="groupBooksPerks" count="1">
+		<item name="bookRangersArrowRecovery" />
+		<item name="bookRangersCripplingShot" />
+		<item name="bookRangersKnockdown" />
+		<item name="bookRangersFlamingArrows" />
+		<item name="bookRangersAPAmmo" />
+		<item name="bookRangersExplodingBolts" />
+		<item name="bookRangersForestGuide" />
+		<item name="bookArtOfMiningLuckyStrike" />
+		<item name="bookArtOfMiningDiamondTools" />
+		<item name="bookArtOfMiningCoffee" />
+		<item name="bookArtOfMiningBlackStrap" />
+		<item name="bookArtOfMiningPallets" />
+		<item name="bookArtOfMiningAvalanche" />
+		<item name="bookArtOfMiningLantern" />
+		<item name="bookAutoWeaponsDamage" />
+		<item name="bookAutoWeaponsRagdoll" />
+		<item name="bookAutoWeaponsMaintenance" />
+		<item name="bookAutoWeaponsRecoil" />
+		<item name="bookAutoWeaponsDrumMag" />
+		<item name="bookAutoWeaponsUncontrolledBurst" />
+		<item name="bookAutoWeaponsMachineGuns" />
+		<item name="bookBatterUpBaseballBats" />
+		<item name="bookBatterUpBigHits" />
+		<item name="bookBatterUpGear" />
+		<item name="bookBatterUpKnockdown" />
+		<item name="bookBatterUpSlowPitch" />
+		<item name="bookBatterUpMaintenance" />
+		<item name="bookBatterUpMetalChain" />
+		<item name="bookEnforcerAPAmmo" />
+		<item name="bookEnforcerApparel" />
+		<item name="bookEnforcerCriminalPursuit" />
+		<item name="bookEnforcerHPAmmo" />
+		<item name="bookEnforcerDamage" />
+		<item name="bookEnforcerIntimidation" />
+		<item name="bookEnforcerPunks" />
+		<item name="bookFiremansAlmanacSpeed" />
+		<item name="bookFiremansAlmanacAxes" />
+		<item name="bookFiremansAlmanacEquipment" />
+		<item name="bookFiremansAlmanacPrevention" />
+		<item name="bookFiremansAlmanacHarvest" />
+		<item name="bookFiremansAlmanacHeat" />
+		<item name="bookFiremansAlmanacMolotov" />
+		<item name="bookGreatHeistAdrenalineFall" />
+		<item name="bookGreatHeistTimedCharge" />
+		<item name="bookGreatHeistClaimed" />
+		<item name="bookGreatHeistGems" />
+		<item name="bookGreatHeistMotionDetection" />
+		<item name="bookGreatHeistSafes" />
+		<item name="bookGreatHeistSprintSneak" />
+		<item name="bookHuntingJournalBears" />
+		<item name="bookHuntingJournalCoyotes" />
+		<item name="bookHuntingJournalDeer" />
+		<item name="bookHuntingJournalMountainLions" />
+		<item name="bookHuntingJournalVultures" />
+		<item name="bookHuntingJournalWolves" />
+		<item name="bookHuntingJournalSelfDefense" />
+		<item name="bookLuckyLooterAmmunition" />
+		<item name="bookLuckyLooterBooks" />
+		<item name="bookLuckyLooterBrass" />
+		<item name="bookLuckyLooterDukes" />
+		<item name="bookLuckyLooterFood" />
+		<item name="bookLuckyLooterLead" />
+		<item name="bookLuckyLooterMedical" />
+		<item name="bookNeedleAndThreadDesertWear" />
+		<item name="bookNeedleAndThreadDusters" />
+		<item name="bookNeedleAndThreadFootwear" />
+		<item name="bookNeedleAndThreadLegwear" />
+		<item name="bookNeedleAndThreadPockets" />
+		<item name="bookNeedleAndThreadPufferCoats" />
+		<item name="bookNeedleAndThreadWinterWear" />
+		<item name="bookNightStalkerArchery" />
+		<item name="bookNightStalkerBlades" />
+		<item name="bookNightStalkerSilentNight" />
+		<item name="bookNightStalkerSlumberParty" />
+		<item name="bookNightStalkerStealthDamage" />
+		<item name="bookNightStalkerThiefAdrenaline" />
+		<item name="bookNightStalkerTwilightThief" />
+		<item name="bookPistolPeteAPAmmo" />
+		<item name="bookPistolPeteDamage" />
+		<item name="bookPistolPeteHPAmmo" />
+		<item name="bookPistolPeteMaintenance" />
+		<item name="bookPistolPeteSteadyHand" />
+		<item name="bookPistolPeteSwissKnees" />
+		<item name="bookPistolPeteTakeAim" />
+		<item name="bookShotgunMessiahBreachingSlugs" />
+		<item name="bookShotgunMessiahDamage" />
+		<item name="bookShotgunMessiahLimbShot" />
+		<item name="bookShotgunMessiahMaintenance" />
+		<item name="bookShotgunMessiahMagazine" />
+		<item name="bookShotgunMessiahPartyStarter" />
+		<item name="bookShotgunMessiahSlugs" />
+		<item name="bookSniperAPAmmo" />
+		<item name="bookSniperControlledBreathing" />
+		<item name="bookSniperCripplingShot" />
+		<item name="bookSniperDamage" />
+		<item name="bookSniperHeadShot" />
+		<item name="bookSniperReload" />
+		<item name="bookSniperHPAmmo" />
+		<item name="bookUrbanCombatAdrenalineRush" />
+		<item name="bookUrbanCombatCigar" />
+		<item name="bookUrbanCombatRoomClearing" />
+		<item name="bookUrbanCombatJumping" />
+		<item name="bookUrbanCombatLandMines" />
+		<item name="bookUrbanCombatLanding" />
+		<item name="bookUrbanCombatSneaking" />
+		<item name="bookWasteTreasuresAcid" />
+		<item name="bookWasteTreasuresCloth" />
+		<item name="bookWasteTreasuresCoffins" />
+		<item name="bookWasteTreasuresDoors" />
+		<item name="bookWasteTreasuresHoney" />
+		<item name="bookWasteTreasuresSinks" />
+		<item name="bookWasteTreasuresWater" />
+		<item name="bookBarBrawling1BasicMoves" />
+		<item name="bookBarBrawling2DropABomb" />
+		<item name="bookBarBrawling3KillerInstinct" />
+		<item name="bookBarBrawling4FinishingMoves" />
+		<item name="bookBarBrawling5AdrenalineHealing" />
+		<item name="bookBarBrawling6RageMode" />
+		<item name="bookBarBrawling7BoozedUp" />
+		<item name="bookSpearHunter1Damage" />
+		<item name="bookSpearHunter2Maintenance" />
+		<item name="bookSpearHunter3SteelSpears" />
+		<item name="bookSpearHunter4StrongArm" />
+		<item name="bookSpearHunter5RapidStrike" />
+		<item name="bookSpearHunter6PuncturedLung" />
+		<item name="bookSpearHunter7QuickStrike" />
+		<item name="bookTechJunkie1Damage" />
+		<item name="bookTechJunkie2Maintenance" />
+		<item name="bookTechJunkie3APAmmo" />
+		<item name="bookTechJunkie4Shells" />
+		<item name="bookTechJunkie5Repulsor" />
+		<item name="bookTechJunkie6BatonCharge" />
+		<item name="bookTechJunkie7Hydraulics" />
+		<item name="ulmBookSniperRifles" />
+		<item name="ulmBookArchery" />
+		<item name="ulmBookSpears" />
+		<item name="ulmBookLockPicking" />
+		<item name="ulmBookLooting" />
+		<item name="ulmBookButcher" />
+		<item name="ulmBookAssaultRifles" />
+		<item name="ulmBookClubs" />
+		<item name="ulmBookSledgehammers" />
+		<item name="ulmBookAxes" />
+		<item name="ulmBookShovels" />
+		<item name="ulmBookMining" />
+		<item name="ulmBookShotguns" />
+		<item name="ulmBookBrawler" />
+		<item name="ulmBookResistHeat" />
+		<item name="ulmBookResistCold" />
+		<item name="ulmBookResistPain" />
+		<item name="ulmBookHealing" />
+		<item name="ulmBookHandguns" />
+		<item name="ulmBookBlades" />
+		<item name="ulmBookAthletics" />
+		<item name="ulmBookSneaking" />
+		<item name="ulmBookAssasin" />
+		<item name="ulmBookSubmachineGuns" />
+	<!--<item name="ulmBookExplosives"/>-->
+		<item name="ulmBookShockers" />
+	<!--<item name="ulmBookTurrets"/>-->
+		<item name="ulmBookTrading" />
+		<item name="ulmBookQuesting" />
+		<item name="ulmBookSalvaging" />
+		<item name="ulmBookStrength" /></trader_item_group>
+
+	<trader_item_group name="groupBooksFood" count="1">
+		<item name="drinkJarGoldenRodTeaSchematic" />
+		<item name="drinkJarRedTeaSchematic" />
+		<item name="foodBlueberryPieSchematic" />
+		<item name="foodCornBreadSchematic" />
+		<item name="foodCornOnTheCobSchematic" />
+		<item name="foodMeatStewSchematic" />
+		<item name="foodSteakAndPotatoSchematic" />
+		<item name="foodVegetableStewSchematic" />
+		<item name="foodShamChowderSchematic" />
+		<item name="foodHoboStewSchematic" />
+		<item name="foodFishTacosSchematic" />
+		<item name="foodChiliDogSchematic" />
+		<item name="foodPumpkinPieSchematic" />
+		<item name="foodPumpkinCheesecakeSchematic" />
+		<item name="foodPumpkinBreadSchematic" />
+		<item name="drinkYuccaJuiceSmoothieSchematic" />
+		<item name="drinkJarBeerSchematic" />
+		<item name="drinkJarGrandpasAwesomeSauceSchematic" />
+		<item name="drinkJarGrandpasLearningElixirSchematic" />
+		<item name="drinkJarGrandpasMoonshineSchematic" />
+		<item name="plantedAloe1Schematic" />
+		<item name="plantedBlueberry1Schematic" />
+		<item name="plantedChrysanthemum1Schematic" />
+		<item name="plantedCoffee1Schematic" />
+		<item name="plantedCorn1Schematic" />
+		<item name="plantedCotton1Schematic" />
+		<item name="plantedGoldenrod1Schematic" />
+		<item name="plantedGraceCorn1Schematic" />
+		<item name="plantedHop1Schematic" />
+		<item name="plantedMushroom1Schematic" />
+		<item name="plantedPotato1Schematic" />
+		<item name="plantedYucca1Schematic" />
+		<item name="plantedPumpkin1Schematic" />
+		<item name="foodGumboStewSchematic" prob=".6" />
+		<item name="foodShepardsPieSchematic" prob=".6" />
+		<item name="foodSpaghettiSchematic" prob=".6" />
+		<item name="foodTunaFishGravyToastSchematic" prob=".6" /></trader_item_group>
+
+	<trader_item_group name="groupBooksMods">
+		<item name="modArmorHelmetLightSchematic" />
+		<item name="modArmorBandolierSchematic" />
+		<item name="modArmorInsulatedLinerSchematic" />
+		<item name="modArmorCoolingMeshSchematic" />
+		<item name="modArmorPlatingBasicSchematic" />
+		<item name="modArmorImprovedFittingsSchematic" />
+		<item name="modArmorStoragePocketSchematic" />
+		<item name="modArmorDoubleStoragePocketSchematic" />
+		<item name="modArmorMuffledConnectorsSchematic" />
+		<item name="modGunBarrelExtenderSchematic" />
+		<item name="modGunMuzzleBrakeSchematic" />
+		<item name="modGunFlashlightSchematic" />
+		<item name="modGunScopeSmallSchematic" />
+		<item name="modGunScopeMediumSchematic" />
+		<item name="modGunReflexSightSchematic" />
+		<item name="modGunTriggerGroupSemiSchematic" />
+		<item name="modGunBipodSchematic" />
+		<item name="modGunForegripSchematic" />
+		<item name="modGunRetractingStockSchematic" />
+		<item name="modGunDuckbillSchematic" />
+		<item name="modGunChokeSchematic" />
+		<item name="modGunMagazineExtenderSchematic" />
+		<item name="modShotgunSawedOffBarrelSchematic" />
+		<item name="modGunCrippleEmSchematic" />
+		<item name="modGunBowArrowRestSchematic" />
+		<item name="modGunBowPolymerStringSchematic" />
+		<item name="modMeleeTemperedBladeSchematic" />
+		<item name="modMeleeSerratedBladeSchematic" />
+		<item name="modMeleeWeightedHeadSchematic" />
+		<item name="modMeleeStructuralBraceSchematic" />
+		<item name="modMeleeErgonomicGripSchematic" />
+		<item name="modMeleeFortifyingGripSchematic" />
+		<item name="modMeleeClubBarbedWireSchematic" />
+		<item name="modMeleeClubMetalSpikesSchematic" />
+		<item name="modMeleeGraveDiggerSchematic" />
+		<item name="modMeleeWoodSplitterSchematic" />
+		<item name="modFuelTankSmallSchematic" />
+		<item name="modFuelTankLargeSchematic" />
+		<item name="modGunMeleeTheHunterSchematic" />
+		<item name="modGunMeleeBlessedMetalSchematic" />
+		<item name="ulmModArmorBackpackBasicBlueprint" />
+		<item name="ulmModChainsawChainTitaniumBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksToolsEpic">
+		<item name="ulmMeleeAxeTitaniumBlueprint" />
+		<item name="ulmToolPickaxeTitaniumBlueprint" />
+		<item name="ulmToolShovelTitaniumBlueprint" />
+		<item name="meleeToolPickT3AugerSchematic" />
+		<item name="meleeToolAxeT3ChainsawSchematic" />
+		<item name="ulmToolJackhammerBlueprint" />
+		<item name="ulmResourceSuperiorRepairKitBlueprint" />
+		<item name="ulmToolBerserkerDrillBlueprint" prob=".5" /></trader_item_group>
+
+	<trader_item_group name="groupBooksToolsRare">
+		<item name="ammoGasCanSchematic" />
+		<item name="meleeToolAxeT2SteelAxeBlueprint" />
+		<item name="meleeToolPickT2SteelPickaxeBlueprint" />
+		<item name="meleeToolShovelT2SteelShovelBlueprint" />
+		<item name="ulmResourceAdvancedRepairKitBlueprint" />
+		<item name="meleeToolRepairT3NailgunSchematic" />
+		<item name="meleeToolSalvageT2RatchetSchematic" />
+		<item name="meleeToolSalvageT3ImpactDriverSchematic" />
+		<item group="groupBooksToolsEpic" prob="0.5" /></trader_item_group>
+
+	<trader_item_group name="groupBooksToolsCommon">
+		<item name="meleeToolSalvageT1WrenchSchematic" />
+		<item name="meleeWpnBladeT1HuntingKnifeSchematic" />
+		<item name="meleeWpnSledgeT1IronSledgehammerSchematic" />
+		<item name="resourceOilSchematic" />
+		<item name="ulmMeleeAxeScrapIronBlueprint" />
+		<item name="ulmMeleeAxeCarpentersBlueprint" />
+		<item name="meleeToolRepairT1ClawHammerBlueprint" />
+		<item name="meleeToolAxeT1IronFireaxeBlueprint" />
+		<item name="meleeToolPickT1IronPickaxeBlueprint" />
+		<item name="meleeToolShovelT1IronShovelBlueprint" />
+		<item name="resourceRepairKitBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksWeaponsEpic">
+		<item name="ulmMeleeBladeKatanaTitaniumBlueprint" />
+		<item name="ulmMeleeBladeMacheteTitaniumBlueprint" />
+		<item name="ulmMeleeSpearTitaniumBlueprint" />
+		<item name="ulmMeleeClubTitaniumBlueprint" />
+		<item name="ulmMeleeSledgeTitaniumBlueprint" />
+		<item name="ulmMeleeKnucklesTitaniumKnucklesBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksWeaponsRare">
+		<item name="gunBowT3CompoundBowSchematic" />
+		<item name="gunBowT3CompoundCrossbowSchematic" />
+		<item name="thrownGrenadeSchematic" />
+		<item name="thrownGrenadeContactSchematic" />
+		<item name="thrownDynamiteSchematic" />
+		<item name="gunBotT2JunkTurretSchematic" />
+		<item name="gunHandgunT2Magnum44Schematic" />
+		<item name="gunShotgunT2PumpShotgunSchematic" />
+		<item name="gunExplosivesT3RocketLauncherSchematic" />
+		<item name="meleeWpnKnucklesT3SteelKnucklesSchematic" />
+		<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" />
+		<item name="meleeWpnSpearT3SteelSpearBlueprint" />
+		<item name="meleeWpnClubT3SteelClubBlueprint" />
+		<item name="ulmMeleeBladeMacheteSteelBlueprint" />
+		<item name="ulmMeleeBladeKatanaBlueprint" />
+		<item name="ulmMeleeBladeZweihanderBlueprint" />
+		<item name="ulmMeleeBladeKnifeCombatSteelBlueprint" />
+		<item group="groupBooksWeaponsEpic" prob=".5" /></trader_item_group>
+
+	<trader_item_group name="groupBooksWeaponsCommon">
+		<item name="gunHandgunT1PistolSchematic" />
+		<item name="gunShotgunT1DoubleBarrelSchematic" />
+		<item name="gunRifleT1HuntingRifleSchematic" />
+		<item name="gunMGT1AK47Schematic" />
+		<item name="gunBowT1WoodenBowSchematic" />
+		<item name="gunBowT1IronCrossbowSchematic" />
+		<item name="gunBotT1JunkSledgeSchematic" />
+		<item name="thrownAmmoPipeBombSchematic" />
+		<item name="meleeWpnClubT1BaseballBatSchematic" />
+		<item name="meleeWpnBatonT2StunBatonSchematic" />
+		<item name="gunHandgunT3SMG5Schematic" />
+		<item name="ulmAmmo10mmRoundHPBlueprint" />
+		<item name="ulmAmmo10mmRoundAPBlueprint" />
+		<item name="ulmAmmo556mmRoundHPBlueprint" />
+		<item name="ulmAmmo556mmRoundAPBlueprint" />
+		<item name="ulmAmmo792mmRoundHPBlueprint" />
+		<item name="ulmAmmo792mmRoundAPBlueprint" />
+		<!-- Scrap -->
+		<item name="ulmMeleeKnucklesBrassKnucklesBlueprint" />
+		<item name="ulmMeleeKnucklesScrapKnucklesBlueprint" />
+		<item name="ulmMeleeGreataxeScrapIronBlueprint" />
+		<item name="ulmMeleeBladeKatanaScrapIronBlueprint" />
+		<item name="ulmGunKineticPistolScrap1Blueprint" />
+		<item name="ulmGunKineticPistolScrap2Blueprint" />
+		<item name="ulmGunKineticShotgunScrapBlueprint" />
+		<item name="meleeWpnBladeT3MacheteSchematic" />
+		<item name="ulmMeleeBladeKnifeScrapIronBlueprint" />
+		<item name="ulmToolShovelScrapIronBlueprint" />
+		<item name="ulmMeleeSledgeScrapIronBlueprint" />
+		<!-- Iron -->
+		<item name="meleeWpnKnucklesT1IronKnucklesSchematic" />
+		<item name="meleeWpnBladeT1HuntingKnifeSchematic" />
+		<item name="meleeWpnSpearT1IronSpearSchematic" />
+		<item name="ulmMeleeClubIronBlueprint" />
+		<item name="ulmMeleeBladeKnifeCombatIronBlueprint" />
+		<item name="ulmMeleeBladeKnifeKunaiBlueprint" />
+		<item name="ulmMeleeBladeMacheteIronBlueprint" />
+		<item name="ulmMeleeBladeSwordIronBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksVehiclesCommon">
+		<!-- Bicycle -->
+		<item name="vehicleBicycleChassisSchematic" />
+		<item name="vehicleBicycleHandlebarsSchematic" />
+		<item name="ulmResourceBicycleWheelBlueprint" />
+		<item name="ulmBookMaintenanceBicycle" />
+		<!-- Minibike -->
+		<item name="vehicleMinibikeChassisSchematic" />
+		<item name="vehicleMinibikeHandlebarsSchematic" />
+		<item name="ulmResourceMinibikeWheelBlueprint" />
+		<item name="ulmBookMaintenanceMinibike" prob=".25" />
+		<!-- Misc -->
+		<item name="ulmModVehicleCargoBagBlueprint" />
+		<item name="ulmModVehicleShockAbsorbersBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksVehiclesRare">
+		<!-- Motorcycle -->
+		<item name="vehicleMotorcycleChassisSchematic" />
+		<item name="vehicleMotorcycleHandlebarsSchematic" />
+		<item name="ulmResourceMotorcycleWheelBlueprint" />
+		<item name="ulmBookMaintenanceMotorcycle" prob=".25" />
+		<!-- Dune Runner -->
+		<item name="ulmResourceDuneRunnerFrameSchematic" />
+		<item name="ulmResourceDuneRunnerSuspensionSchematic" />
+		<item name="ulmResourceDuneRunnerSeatSchematic" />
+		<item name="ulmResourceDuneRunnerDashboardSchematic" />
+		<!-- Mine Cart -->
+		<item name="ulmVehicleMineCartBlueprint" />
+		<!-- Car -->
+		<item name="ulmResourceCarWheelBlueprint" />
+		<item name="ulmBookMaintenanceCar" prob=".25" />
+		<item name="ulmBookMaintenanceVan" prob=".25" />
+		<!-- Truck -->
+		<item name="ulmResourceTruckWheelBlueprint" />
+		<item name="ulmBookMaintenanceTruck" prob=".25" />
+		<!-- Gyrocopter -->
+		<item name="vehicleGyroCopterChassisSchematic" />
+		<item name="vehicleGyroCopterAccessoriesSchematic" />
+		<item name="ulmResourceGyrocopterWheelBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksElectronics">
+		<item name="bladeTrapSchematic" />
+		<item name="dartTrapSchematic" />
+		<item name="shotgunTurretSchematic" />
+		<item name="autoTurretSchematic" />
+		<item name="electricfencepostSchematic" />
+		<item name="motionsensorSchematic" />
+		<item name="speakerSchematic" />
+		<item name="switchSchematic" />
+		<item name="batterybankSchematic" />
+		<item name="electrictimerrelaySchematic" />
+		<item name="ulmTrapPoweredSpikesBlueprint" />
+		<item name="ulmResourceElectronicCopperCoilBlueprint" />
+		<item name="generatorbankSchematic" />
+		<item name="electricwirerelayBlueprint" />
+		<item name="pressureplateSchematic" />
+		<item name="pressureplateLongBlueprint" />
+		<item name="tripwirepostBlueprint" />
+		<item name="garageDoorMetal_v1PoweredBlueprint" />
+		<item name="vaultDoor03_PoweredBlueprint" />
+		<item name="vaultHatch_v3_PoweredBlueprint" />
+		<item name="garageDoorIndustrial_PoweredBlueprint" />
+		<item name="metalReinforcedWoodDrawBridgePoweredBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksDrone" count="1">
+		<item name="gunBotT3JunkDroneSchematic" prob="0.33" />
+		<item name="modRoboticDroneCargoModSchematic" />
+		<item name="modRoboticDroneMedicModSchematic" />
+		<item name="modRoboticDroneHeadlampModSchematic" />
+		<item name="modRoboticDroneArmorPlatingModSchematic" />
+		<item name="modRoboticDroneMoraleBoosterModSchematic" /></trader_item_group>
+
+	<trader_item_group name="groupBooksWorkstations" count="1">
+		<item name="toolBellowsSchematic" />
+		<item name="toolForgeCrucibleSchematic" />
+		<item name="toolBeakerBlueprint" />
+		<item name="forgeSchematic" />
+		<item name="workbenchSchematic" />
+		<item name="cementMixerSchematic" />
+		<item name="chemistryStationSchematic" />
+		<item name="ulmStationArtisan_1Blueprint" />
+		<item name="ulmStationBallistics_1Blueprint" />
+		<item name="ulmStationForge_1Blueprint" />
+		<item name="ulmStationMechanic_1Blueprint" />
+		<item name="ulmStationTailor_1Blueprint" />
+		<item name="ulmStationRecycler_1Blueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksMedicine" count="1">
+		<item name="medicalFirstAidBandageSchematic" />
+		<item name="medicalFirstAidKitSchematic" />
+		<item name="medicalPlasterCastSchematic" />
+		<item name="drugAntibioticsSchematic" />
+		<item name="drugHerbalAntibioticsSchematic" />
+		<item name="resourceAcidBlueprint" /></trader_item_group>
+
+	<trader_item_group name="groupBooksArmorCommon" count="1">
+		<item group="groupBooksArmorLeather" />
+		<item group="groupBooksArmorIron" />
+		<item name="resourceMilitaryFiberSchematic" prob=".5" /></trader_item_group>
+
+	<trader_item_group name="groupBooksArmorRare" count="1">
+		<item group="groupBooksArmorMilitary" />
+		<item group="groupBooksArmorSteel" />
+		<item name="resourceMilitaryFiberSchematic" /></trader_item_group>
+
+	<trader_item_group name="groupBooksCommon" count="1">
+		<item group="groupBooksPerks" prob="30" />
+		<item group="groupBooksFood" prob="15" />
+		<item group="groupBooksMods" prob="10" />
+		<item group="groupBooksElectronics" prob="5" />
+		<item group="groupBooksWeaponsCommon" prob="5" />
+		<item group="groupBooksArmorCommon" prob="5" />
+		<item group="groupBooksToolsCommon" prob="2" />
+		<item group="groupBooksVehiclesCommon" /></trader_item_group>
+
+	<trader_item_group name="groupBooksRare" count="1">
+		<item group="groupBooksArmorRare" prob="5" />
+		<item group="groupBooksMedicine" prob="5" />
+		<item group="groupBooksWeaponsRare" prob="4" />
+		<item group="groupBooksToolsRare" prob="3" />
+		<item group="groupBooksDrone" prob="2" />
+		<item group="groupBooksWorkstations" />
+		<item group="groupBooksVehiclesRare" /></trader_item_group>
+
+	<trader_item_group name="groupBooksAll" count="1">
+		<item group="groupBooksCommon" />
+		<item group="groupBooksRare" prob="0.5" /></trader_item_group>
+
+	<trader_item_group name="groupMeleeCommon" count="1"><!-- H1+, G11+, F21+, E31+, D41+, C51+, B61+, A71+, S81+ -->
+		<item name="ulmMeleeBatonPoliceBaton" quality="1,50" />
+		<item name="ulmMeleeBatonPoliceBatonWithBlade" quality="1,50" />
+		<item name="meleeWpnBladeT1HuntingKnife" quality="1,50" />
+		<item name="meleeWpnBladeT3Machete" quality="1,50" />
+		<item name="meleeWpnClubT1BaseballBat" quality="1,50" />
+		<item name="meleeWpnSpearT1IronSpear" quality="1,50" />
+		<item name="meleeWpnSledgeT1IronSledgehammer" quality="1,50" />
+		<item name="ulmMeleeBladeFoldingKnife" quality="1,50" />
+		<item name="ulmMeleeBladeKnifeCleaverRusty" quality="1,50" />
+		<item name="ulmMeleeBladeKnifeKunai" quality="1,50" />
+		<item name="ulmMeleeBladeKnifeCombatIron" quality="1,50" />
+		<item name="ulmMeleeBladeKatanaScrapIron" quality="1,50" />
+		<item name="ulmMeleeBladeKnifeScrapIron" quality="1,50" />
+		<item name="ulmMeleeBladeMisshapedJunkBlade" quality="1,50" />
+		<item name="ulmMeleeBladeSwordScrap" quality="1,50" />
+		<item name="ulmMeleeBladeSwordIron" quality="1,50" />
+		<item name="ulmMeleeBladeMacheteIron" quality="1,50" />
+		<item name="ulmMeleeClubCricketBat" quality="1,50" />
+		<item name="ulmMeleeClubGolfClub" quality="1,50" />
+		<item name="ulmMeleeClubIron" quality="1,50" />
+		<item name="ulmMeleeClubTableLegMace" quality="1,50" />
+		<item name="ulmMeleeClubTennisRacket" quality="1,50" />
+		<item name="ulmMeleeKnucklesBrassKnuckles" quality="1,50" />
+		<item name="ulmMeleeKnucklesScrapKnuckles" quality="1,50" />
+		<item name="ulmMeleePaddle" quality="1,50" />
+		<item name="ulmMeleePolearmBoathook" quality="1,50" />
+		<item name="ulmMeleeSledgeScrapIron" quality="1,50" />
+		<item name="ulmMeleeSpearIron" quality="1,50" />
+		<item name="ulmMeleeSpearScrapIron" quality="1,50" />
+		<item name="ulmMeleeTwoHandedPipe" quality="1,50" /></trader_item_group>
+
+	<trader_item_group name="groupMeleeRare" count="1">
+		<item name="meleeWpnBatonT2StunBaton" quality="1,40" />
+		<item name="meleeWpnBladeT3Machete" quality="1,40" />
+		<item name="meleeWpnClubT3SteelClub" quality="1,40" />
+		<item name="ulmMeleePolearmTrident" quality="1,40" />
+		<item name="meleeWpnSpearT3SteelSpear" quality="1,40" />
+		<item name="meleeWpnSledgeT3SteelSledgehammer" quality="1,40" />
+		<item name="meleeWpnKnucklesT1IronKnuckles" quality="1,40" />
+		<item name="meleeWpnKnucklesT3SteelKnuckles" quality="1,40" />
+		<item name="ulmMeleeKnucklesTitaniumKnuckles" quality="1,40" />
+		<item name="ulmMeleeGreataxeScrapIron" quality="1,40" />
+		<item name="ulmMeleeClubIronMorningStar" quality="1,40" />
+		<item name="ulmMeleeBladeZweihander" quality="1,40" />
+		<item name="ulmMeleeBladeKatana" quality="1,40" />
+		<item name="ulmMeleeBladeMacheteSteel" quality="1,40" />
+		<item name="ulmMeleeBladeKnifeCombatSteel" quality="1,40" />
+		<item name="ulmMeleeBladeSaw" quality="1,40" />
+		<item name="ulmMeleePolearmTrident" quality="1,40" />
+		<item name="ulmMeleeSpearSerpent" quality="1,30" prob=".05" /></trader_item_group>
+
+	<trader_item_group name="groupMeleeEpic" count="1">
+		<item name="ulmMeleeBladeRex" quality="1,30" />
+		<item name="ulmMeleeBladeElectro" quality="1,30" />
+		<item name="ulmMeleeBladeElectroSaber" quality="1,30" />
+		<item name="ulmMeleeBladeInferno" quality="1,30" />
+		<item name="ulmMeleeBladeKatanaTitanium" quality="1,30" />
+		<item name="ulmMeleeBladeKatanaThermal" quality="1,30" />
+		<item name="ulmMeleeBladeKnifeTitanium" quality="1,30" />
+		<item name="ulmMeleeBladeMacheteTitanium" quality="1,30" />
+		<item name="ulmMeleeClubTitanium" quality="1,30" />
+		<item name="ulmMeleeSledgeTitanium" quality="1,30" />
+		<item name="ulmMeleeSpearTitanium" quality="1,30" />
+		<item name="ulmMeleeSledgeHectorsWrath" quality="1,30" />
+		<item name="ulmMeleeSledgeRocket" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="groupMeleeAll">
+		<item group="groupMeleeCommon" />
+		<item group="groupMeleeRare" prob=".3" />
+		<item group="groupMeleeEpic" prob=".1" /></trader_item_group>
+
+	<trader_item_group name="groupGunsCommon"><!-- H1+, G11+, F21+, E31+, D41+, C51+, B61+, A71+, S81+ -->
+		<!-- Archery -->
+		<item name="gunBowT1WoodenBow" quality="1,50" prob=".7" />
+		<item name="gunBowT1IronCrossbow" quality="1,50" prob=".7" />
+		<!-- Pistols -->
+		<item name="ulmGunKineticPistolScrap1" quality="1,50" />
+		<item name="ulmGunKineticPistolScrap2" quality="1,50" />
+		<item name="ulmGunKineticPistolMakarov" quality="1,50" />
+		<item name="gunHandgunT1Pistol" quality="1,50" />
+		<item name="ulmGunKineticRevolverBugert9mm" quality="1,50" />
+		<item name="ulmGunKineticPistolCondor" quality="1,40" />
+		<!-- Rifles -->
+		<item name="ulmGunKineticAssaultRifleAKM12" quality="1,30" />
+		<item name="gunMGT1AK47" quality="1,50" prob=".7" />
+		<item name="gunRifleT1HuntingRifle" quality="1,50" />
+		<item name="gunRifleT2LeverActionRifle" quality="1,50" />
+		<!-- Shotguns -->
+		<item name="gunShotgunT1DoubleBarrel" quality="1,50" prob=".5" />
+		<item name="ulmGunKineticShotgunScrap" quality="1,50" />
+		<item name="ulmGunKineticShotgunDoubleBarrel" quality="1,50" prob=".5" />
+		<!-- Turrets -->
+		<item name="gunBotT1JunkSledge" quality="1,50" prob=".7" /></trader_item_group>
+
+	<trader_item_group name="groupGunsRare">
+		<!-- Archery -->
+		<item name="gunBowT3CompoundBow" quality="1,40" />
+		<item name="gunBowT3CompoundCrossbow" quality="1,40" />
+		<!-- Pistols -->
+		<item name="ulmGunKineticPistolGlock" quality="1,40" />
+		<item name="ulmGunKineticPistolFalcon" quality="1,40" />
+		<item name="ulmGunKineticRevolverBugert38Cal" quality="1,40" />
+		<item name="ulmGunKineticPistolDesertEagle" quality="1,40" />
+		<!-- SMG -->
+		<item name="gunHandgunT3SMG5" quality="1,40" />
+		<item name="ulmGunKineticSMGCricket" quality="1,40" />
+		<item name="ulmGunKineticMicroSmg" quality="1,40" />
+		<!-- Assault Rifles -->
+		<item name="ulmGunKineticAssaultRifleAug1" quality="1,40" />
+		<item name="gunMGT2TacticalAR" quality="1,40" />
+		<!-- Sniper Rifles -->
+		<item name="ulmGunKineticSniperRifleM1A" quality="1,30" />
+		<item name="gunRifleT3SniperRifle" quality="1,30" />
+		<!-- Shotguns -->
+		<item name="ulmGunKineticShotgunDoubleBarrel" quality="1,50" />
+		<item name="gunShotgunT2PumpShotgun" quality="1,50" />
+		<item name="ulmGunKineticShotgunPeacekeeper" quality="1,40" />
+		<item name="ulmGunKineticShotgunEnforcer" quality="1,40" />
+		<!-- Turrets -->
+		<item name="gunBotT2JunkTurret" quality="1,40" /></trader_item_group>
+
+	<trader_item_group name="groupGunsEpic">
+		<!-- Pistols -->
+		<item name="gunHandgunT2Magnum44" quality="1,30" />
+		<item name="ulmGunKineticPistolColt" quality="1,30" />
+		<item name="gunHandgunT3DesertVulture" quality="1,30" />
+		<!-- SMG -->
+		<item name="ulmGunKineticMicroSmg" quality="1,30" />
+		<item name="ulmGunKineticUMP" quality="1,30" />
+		<item name="ulmGunKineticR90" quality="1,30" />
+		<!-- Assault Rifles -->
+		<item name="ulmGunKineticAssaultRifleFamas1" quality="1,30" />
+		<item name="ulmGunKineticAssaultRifleM4" quality="1,30" />
+		<!-- Machine Guns -->
+		<item name="ulmGunKineticAdjudicator" quality="1,30" />
+		<item name="gunMGT3M60" quality="1,30" />
+		<!-- Sniper Rifles -->
+		<item name="ulmGunKineticSniperRifleSRD63" quality="1,30" />
+		<item name="ulmGunKineticSniperRifleM82" quality="1,30" />
+		<!-- Shotguns -->
+		<item name="ulmGunKineticShotgunSpas" quality="1,30" />
+		<item name="ulmGunKineticShotgunPumpBM4" quality="1,30" />
+		<item name="gunShotgunT3AutoShotgun" quality="1,30" />
+		<!-- Misc/Turrets -->
+		<item name="gunExplosivesT3RocketLauncher" quality="1,30" />
+		<item name="ulmGunKineticRocketLauncherAT4" quality="1,30" />
+		<item name="ulmGunKineticRocketLauncherM202" quality="1,30" />
+		<item name="gunBotT3JunkDrone" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="groupWeaponsStash">
+		<!-- Pistols -->
+		<item name="ulmGunKineticPistolGlock" quality="21,50" />
+		<item name="gunHandgunT2Magnum44" quality="21,50" prob=".7" />
+		<item name="ulmGunKineticPistolColt" quality="21,50" />
+		<item name="gunHandgunT3DesertVulture" quality="21,50" prob=".7" />
+		<!-- SMG -->
+		<item name="ulmGunKineticUMP" quality="21,50" prob=".7" />
+		<item name="ulmGunKineticR90" quality="21,50" />
+		<!-- Rifles -->
+		<item name="ulmGunKineticAssaultRifleFamas1" quality="21,50" />
+		<item name="gunMGT3M60" quality="21,50" />
+		<item name="gunRifleT3SniperRifle" quality="21,50" prob=".7" />
+		<!-- Shotguns -->
+		<item name="ulmGunKineticShotgunPeacekeeper" quality="21,50" prob=".8" />
+		<item name="ulmGunKineticShotgunEnforcer" quality="21,50" prob=".6" />
+		<item name="ulmGunKineticShotgunPumpBM4" quality="21,50" prob=".7" />
+		<item name="gunShotgunT3AutoShotgun" quality="21,50" prob=".7" />
+		<!-- Misc/Turrets -->
+		<item name="gunExplosivesT3RocketLauncher" quality="21,50" />
+		<item name="gunBotT2JunkTurret" quality="21,50" prob=".7" />
+		<item name="gunBotT3JunkDrone" quality="21,50" prob=".7" /></trader_item_group>
+
+	<trader_item_group name="groupRocketParts">
+		<item name="resourceRocketTip" count="1,5" />
+		<item name="resourceRocketCasing" count="1,5" />
+		<item name="gunExplosivesT3RocketLauncherParts" count="1,5" /></trader_item_group>
+
+	<trader_item_group name="groupGunParts">
+		<item name="gunHandgunT1PistolParts" count="1,5" />
+		<item name="gunShotgunT1DoubleBarrelParts" count="1,5" />
+		<item name="gunMGT1AK47Parts" count="1,5" />
+		<item name="gunRifleT1HuntingRifleParts" count="1,5" />
+		<item name="gunBowT1WoodenBowParts" count="1,5" />
+		<item name="gunBotRoboticsParts" count="1,5" />
+		<item name="ulmResourcePartsSMG" count="1,5" />
+		<item group="groupRocketParts" count="1" /></trader_item_group>
+
+	<trader_item_group name="groupGunsAll">
+		<item group="groupGunsCommon" prob="6" />
+		<item group="groupGunsRare" prob="4" />
+		<item group="groupGunsEpic" prob="1" />
+		<item group="groupGunParts" count="1" /></trader_item_group>
+	
+	<trader_item_group name="group9mm">
+		<item name="ammo9mmBulletBall" count="40,150" />
+		<item name="ammo9mmBulletHP" count="40,150" prob=".4" />
+		<item name="ammo9mmBulletAP" count="40,150" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="group10mm">
+		<item name="ulmAmmo10mmRoundST" count="50,200" />
+		<item name="ulmAmmo10mmRoundHP" count="50,200" prob=".4" />
+		<item name="ulmAmmo10mmRoundAP" count="50,200" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="group556mm">
+		<item name="ulmAmmo556mmRoundST" count="25,125" />
+		<item name="ulmAmmo556mmRoundHP" count="25,125" prob=".4" />
+		<item name="ulmAmmo556mmRoundAP" count="25,125" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="group762mm">
+		<item name="ammo762mmBulletBall" count="20,100" />
+		<item name="ammo762mmBulletHP" count="20,100" prob=".2" />
+		<item name="ammo762mmBulletAP" count="20,100" prob=".2" />
+	</trader_item_group>
+	
+	<trader_item_group name="group792mm">
+		<item name="ulmAmmo792mmRoundST" count="20,100" />
+		<item name="ulmAmmo792mmRoundHP" count="20,100" prob=".4" />
+		<item name="ulmAmmo792mmRoundAP" count="20,100" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="group44Magnum">
+		<item name="ammo44MagnumBulletBall" count="15,60" />
+		<item name="ammo44MagnumBulletHP" count="15,60" prob=".4" />
+		<item name="ammo44MagnumBulletAP" count="15,60" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="group50Cal">
+		<item name="ulmAmmo50CalRoundST" count="12,48" />
+		<item name="ulmAmmo50CalRoundHP" count="12,48" prob=".4" />
+		<item name="ulmAmmo50CalRoundAP" count="12,48" prob=".1" />
+	</trader_item_group>
+	
+	<trader_item_group name="groupShotgunShells">
+		<item name="ammoShotgunShell" count="15,100" />
+		<item name="ammoShotgunSlug" count="6,25" prob=".2" />
+	</trader_item_group>
+	
+	<trader_item_group name="groupRockets">
+		<item name="ammoRocketHE" count="2,10" />
+		<item name="ammoRocketFrag" count="2,10" />
+	</trader_item_group>
+	
+	<trader_item_group name="groupPrimitive">
+		<item name="ammoArrowIron" count="20,60" />
+		<item name="ammoArrowSteelAP" count="20,60" />
+		<item name="ammoCrossbowBoltIron" count="20,60" />
+		<item name="ammoCrossbowBoltSteelAP" count="20,60" />
+	</trader_item_group>
+	
+	<trader_item_group name="groupExplosives">
+		<item group="groupRockets" />
+		<item name="thrownTimedCharge" count="5,15" prob="2" />
+		<item name="thrownAmmoPipeBomb" count="1,5" />
+		<item name="thrownGrenade" count="1,5" />
+		<item name="thrownGrenadeContact" count="1,5" />
+		<item name="thrownAmmoMolotovCocktail" count="1,5" />
+		<item name="thrownDynamite" count="1,5" />
+	</trader_item_group>
+	
+	<trader_item_group name="groupAmmoRounds">
+		<item group="groupPrimitive" prob=".5" />
+		<item group="group9mm" />
+		<item group="group10mm" />
+		<item group="group556mm" />
+		<item group="group762mm" />
+		<item group="group792mm" />
+		<item group="group44Magnum" />
+		<item group="group50Cal" prob=".3" />
+		<item group="groupShotgunShells" />
+		<item group="groupExplosives" /></trader_item_group>
+
+	<trader_item_group name="groupAmmoResources">
+		<item name="resourceBulletCasing" count="20,200" />
+		<item name="resourceBulletTip" count="20,200" />
+		<item name="resourceBuckshot" count="20,200" />
+		<item name="resourceGunPowder" count="20,200" />
+		<item name="resourcePaper" count="20,200" />
+		<item name="resourceFeather" count="20,200" />
+		<item name="resourcePotassiumNitratePowder" count="25,50" />
+		<item name="resourceArrowHeadIron" count="20,200" prob=".05" />
+		<item name="resourceArrowHeadSteelAP" count="5,25" prob=".05" /></trader_item_group>
+	
+	<trader_item_group name="groupAmmo">
+		<item group="groupAmmoRounds" count="3" />
+		<item group="groupAmmoResources" count="2" /></trader_item_group>
+
+	<trader_item_group name="groupSeeds">
+		<item name="plantedPotato1" />
+		<item name="plantedCoffee1" />
+		<item name="plantedCorn1" />
+		<item name="plantedBlueberry1" />
+		<item name="plantedCotton1" />
+		<item name="plantedGoldenrod1" />
+		<item name="plantedAloe1" />
+		<item name="plantedMushroom1" />
+		<item name="plantedYucca1" />
+		<item name="plantedHop1" />
+		<item name="plantedChrysanthemum1" />
+		<item name="plantedPumpkin1" /></trader_item_group>
+
+	<trader_item_group name="groupFoodCanned">
+		<item name="foodCanBeef" />
+		<item name="foodCanCatfood" />
+		<item name="foodCanChicken" />
+		<item name="foodCanChili" />
+		<item name="foodCanDogfood" />
+		<item name="foodCanSham" />
+		<item name="foodCanLamb" />
+		<item name="foodCanMiso" />
+		<item name="foodCanPasta" />
+		<item name="foodCanPeas" />
+		<item name="foodCanSalmon" />
+		<item name="foodCanSoup" />
+		<item name="foodCanStock" />
+		<item name="foodCanTuna" />
+		<item name="foodCanPears" /></trader_item_group>
+
+	<trader_item_group name="groupFoodCandy">
+		<item name="drugAtomJunkies" />
+		<item name="drugCovertCats" />
+		<item name="drugEyeKandy" />
+		<item name="drugHackers" />
+		<item name="drugHealthBar" />
+		<item name="drugJailBreakers" count="2,3" prob="1.5" />
+		<item name="drugNerdTats" />
+		<item name="drugOhShitzDrops" />
+		<item name="drugRockBusters" />
+		<item name="drugSkullCrushers" />
+		<item name="drugSugarButts" /></trader_item_group>
+
+	<trader_item_group name="groupFoodRaw">
+		<item name="foodEgg" count="2,8" />
+		<item name="foodRawMeat" count="10,40" />
+		<item name="foodCropCorn" count="4,20" />
+		<item name="foodCropPotato" count="4,18" />
+		<item name="foodCropBlueberries" count="5,20" />
+		<item name="foodCornMeal" count="5,20" />
+		<item name="foodCropMushrooms" count="4,8" />
+		<item name="foodHoney" count="1,2" /></trader_item_group>
+
+	<trader_item_group name="groupFoodPrepared">
+		<item name="foodBlueberryPie" count="1" />
+		<item name="foodMeatStew" count="1" />
+		<item name="foodCornBread" count="1,2" />
+		<item name="foodCharredMeat" count="1,2" />
+		<item name="foodGrilledMeat" count="1,2" />
+		<item name="foodBoiledMeat" count="1,2" />
+		<item name="foodEggBoiled" count="1,2" />
+		<item name="foodBakedPotato" count="1,2" />
+		<item name="foodBaconAndEggs" count="1,2" />
+		<item name="foodVegetableStew" count="1,2" />
+		<item name="foodFishTacos" count="1,2" />
+		<item name="foodHoboStew" count="1,2" />
+		<item name="foodShamChowder" count="1,2" />
+		<item name="foodSteakAndPotato" count="1,2" />
+		<item name="foodChiliDog" count="1,2" /></trader_item_group>
+
+	<trader_item_group name="groupDrinks">
+		<item name="drinkJarYuccaJuice" count="1,2" />
+		<item name="drinkJarBoiledWater" count="1,2" />
+		<item name="drinkJarGoldenRodTea" count="1,2" />
+		<item name="drinkJarRedTea" count="1,2" />
+		<item name="drinkJarCoffee" count="1,2" />
+		<item name="drinkJarBeer" count="1,2" />
+		<item name="drinkJarGrainAlcohol" count="1,2" />
+		<item name="drinkYuccaJuiceSmoothie" count="1" />
+		<item name="ulmDrinkPlasticBottleBeer" count="1,3" />
+		<item name="ulmDrinkPlasticBottleCoffee" count="1,2" />
+		<item name="ulmDrinkPlasticBottleMineralWater" count="1,2" />
+		<item name="ulmDrinkCurePoison" count="1,2" /></trader_item_group>
+
+	<trader_item_group name="groupFood">
+		<item group="groupFoodCanned" count="1" />
+		<item group="groupFoodRaw" count="1" />
+		<item group="groupFoodPrepared" count="1" />
+		<item group="groupDrinks" count="1" /></trader_item_group>
+
+	<trader_item_group name="groupResourcesBuilding">
+		<item name="resourceCement" count="50,500" />
+		<item name="ulmResourceOreStone" count="50,500" />
+		<item name="resourceConcreteMix" count="100,500" />
+		<item name="resourceNail" count="10,100" />
+		<item name="ulmResourceBrick" count="50,500" /></trader_item_group>
+
+	<trader_item_group name="groupResourcesGeneral">
+		<item name="ulmResourceElectronicCircuitboard" count="1,5" />
+		<item name="ulmResourceElectronicCopperCoil" count="1,5" />
+		<item name="ulmResourceElectronicDiode" count="1,50" />
+		<item name="ulmResourceElectronicFuse" count="1,20" />
+		<item name="ulmResourceElectronicMicrochip" count="1,10" />
+		<item name="ulmResourceElectronicSwitch" count="1,10" />
+		<item name="ulmResourceElectronicInsulator" count="1,10" />
+		<item name="ulmResourcePlank" count="50,1000" />
+		<item name="resourceYuccaFibers" count="50,500" />
+		<item name="resourceCrushedSand" count="50,500" />
+		<item name="resourceScrapIron" count="25,250" />
+		<item name="resourceScrapPolymers" count="30,150" />
+		<item name="resourceForgedIron" count="5,50" />
+		<item name="resourceForgedSteel" count="5,50" />
+		<item name="resourceMetalPipe" count="5,20" />
+		<item name="resourceOilShale" count="20,60" />
+		<item name="resourceLeather" count="5,25" />
+		<item name="ulmResourceMandibles" count="5,25" />
+		<item name="ulmResourceChitin" count="5,25" />
+		<item name="ulmResourceVenomSack" count="5,25" />
+		<item name="ulmResourceChicken" count="1" />
+		<item name="ulmResourceQueenBee" count="1" />
+		<item name="resourceScrapBrass" count="30,80" />
+		<item name="resourceClayLump" count="5,25" />
+		<item name="resourceScrapLead" count="5,90" />
+		<item name="resourceCloth" count="5,100" />
+		<item name="resourceMilitaryFiber" count="5,20" prob="0.6" />
+		<item name="resourceCoal" count="20,60" />
+		<item name="resourcePotassiumNitratePowder" count="20,60" />
+		<item name="resourceGunPowder" count="3,30" />
+		<item name="resourceOil" count="3,10" />
+		<item name="resourceAcid" count="1,5" prob="0.6" />
+		<item name="resourceAnimalFat" count="5,40" />
+		<item name="resourceSewingKit" count="1,5" />
+		<item name="bucketEmpty" count="1" prob="0.6" />
+		<item name="candle" count="5,20" />
+		<item name="resourceHeadlight" count="5,20" prob="0.6" />
+		<item name="resourceDuctTape" count="10,30" />
+		<item name="resourceGlue" count="5,15" />
+		<item name="resourceSpring" count="5,30" />
+		<item name="resourceMechanicalParts" count="15,80" prob="0.8" />
+		<item name="resourceElectricParts" count="15,50" prob="0.7" />
+		<item name="resourceLockPick" count="1,10" />
+		<item name="thrownTimedCharge" count="1,5" />
+		<item name="ulmDrinkPlasticBottleEmpty" count="10,30" />
+		<item name="ulmAmmoFuelGasoline" count="1" quality="0" />
+		<item name="ulmAmmoFuelGasolineBarrel" count="1" prob="0.2" quality="0" />
+		<item name="ulmResourceAdhesive" count="1,30" />
+		<item name="ulmResourceBook" count="1,50" />
+		<item name="ulmResourceBrassValve" count="1,25" />
+		<item name="ulmResourceMetalMesh" count="1,10" />
+		<item name="ulmResourceGears" count="1,10" />
+		<item name="ulmResourceGlass" count="1,50" />
+		<item name="ulmResourceLumber" count="1,100" />
+		<item name="ulmResourceScrapCopper" count="1,100" />
+		<item name="ulmResourceScrapLeather" count="1,100" />
+		<item name="ulmResourceScrapRubber" count="1,100" />
+		<item name="ulmResourceScrapSteel" count="1,100" />
+		<item name="ulmResourceScrapWires" count="1,100" />
+		<item name="ulmResourceScrapWood" count="1,100" />
+		<item name="ulmResourceScrapTitanium" count="1,100" prob="0.25" />
+		<item name="ulmResourceIngotSilver" count="1,10" prob="0.75" />
+		<item name="ulmResourceIngotGold" count="1,10" prob="0.5" />
+		<item name="ulmResourceIngotIron" count="1,50" />
+		<item name="ulmResourceIngotBrass" count="1,50" />
+		<item name="ulmResourceIngotLead" count="1,50" />
+		<item name="ulmResourceIngotCopper" count="1,50" />
+		<item name="ulmResourceIngotZinc" count="1,50" />
+		<item name="ulmResourceIngotSteel" count="1,50" prob="0.5" />
+		<item name="ulmResourceResin" count="1,200" />
+		<item name="ulmResourceHoney" count="1,20" prob="0.1" />
+		<item name="ulmResourceHingeBrass" count="1,50" />
+		<item name="ulmResourceHingeIron" count="1,50" />
+		<item name="ulmResourceHingeSteel" count="1,50" />
+		<item name="ulmResourceHandleWood" count="1,5" />
+		<item name="ulmResourceFuelBrick" count="1,200" />
+		<item name="ulmResourceBonePowder" count="1,100" />
+		<item name="ulmResourceCoalPowder" count="1,200" />
+		<item name="ulmResourceSulfurPowder" count="1,100" />
+		<item name="ulmResourceRope" count="1,100" />
+		<item name="ulmResourceNutsAndBolts" count="1,500" />
+		<item name="ulmResourceBallBearings" count="1,15" />
+		<item name="barbedWireSheet" count="1,50" />
+		<item name="ulmResourceRebarIron" count="1,100" />
+		<item name="ulmResourceRebarSteel" count="1,100" />
+		<item name="ulmResourceRebarTitanium" count="1,100" prob="0.25" />
+		<item name="ulmResourceIngotTitanium" count="1,50" prob="0.20" />
+		<item name="ulmResourceForgedTitanium" count="1,25" prob="0.15" />
+		<item name="ulmResourceBatterySmall" count="10,30" />
+		<item name="resourcePaint" count="500,5000" />
+		<item name="ulmResourceResearch" count="250,2500" /></trader_item_group>
+	
+	<trader_item_group name="groupToolsMotorized" count="1">
+		<item name="meleeToolSalvageT3ImpactDriver" quality="1,40" />
+		<item name="meleeToolAxeT3Chainsaw" quality="1,40" />
+		<item name="meleeToolPickT3Auger" quality="1,40" />
+		<item name="ulmToolJackhammer" quality="1,40" />
+		<item name="ulmToolBerserkerDrill" quality="1,30" prob=".25" /></trader_item_group>
+	
+	<trader_item_group name="groupToolsRare" count="1"><!-- H1+, G11+, F21+, E31+, D41+, C51+, B61+, A71+, S81+ -->
+		<item group="groupToolsMotorized" />
+		<item group="groupEngines" />
+		<item name="toolForgeCrucible" />
+		<item name="meleeToolRepairT3Nailgun" />
+		<item name="ulmResourceSuperiorRepairKit" count="1,2" prob="0.33" />
+		<item name="meleeToolSalvageT2Ratchet" quality="1,40" />
+		<item name="meleeToolPickT2SteelPickaxe" quality="1,40" />
+		<item name="meleeToolAxeT2SteelAxe" quality="1,40" />
+		<item name="meleeToolShovelT2SteelShovel" quality="1,40" />
+		<item name="meleeWpnSledgeT3SteelSledgehammer" quality="1,40" />
+		<item name="ulmToolShovelTitanium" quality="1,30" prob="0.33" />
+		<item name="ulmMeleeAxeTitanium" quality="1,30" prob="0.33" /></trader_item_group>
+
+	<trader_item_group name="groupToolsCommon" count="1">
+		<item name="resourceRepairKit" count="2,6" />
+		<item name="ulmResourceAdvancedRepairKit" count="2,3" prob=".75" />
+		<item name="toolBellows" prob="0.7" />
+		<item name="meleeToolPaintTool" prob="0.5" />
+		<item name="meleeToolWireTool" />
+		<item name="ulmToolSaw" />
+		<item name="toolCookingPot" />
+		<item name="ulmResourceBenchVice" prob="0.5" />
+		<item name="meleeToolPickT1IronPickaxe" quality="1,40" />
+		<item name="meleeToolShovelT1IronShovel" quality="1,40" />
+		<item name="meleeToolAxeT1IronFireaxe" quality="1,40" />
+		<item name="meleeWpnSledgeT1IronSledgehammer" quality="1,40" />
+		<item name="meleeToolRepairT1ClawHammer" quality="1,40" />
+		<item name="meleeToolSalvageT1Wrench" quality="1,40" prob="0.8" />
+		<item name="ulmMeleePolearmBoathook" quality="1,40" />
+		<item name="ulmMeleePolearmPitchfork" quality="1,40" />
+		<item name="ulmToolHammerWood" quality="1,50" />
+		<item name="ulmToolFryingPan" quality="1,50" />
+		<item name="ulmMeleeClubRollingPin" quality="1,50" />
+		<item name="ulmMeleeBladeKnifeCleaverIron" quality="1,50" />
+		<item name="ulmMeleeAxeCarpenters" quality="1,50" />
+		<item name="ulmMeleeAxeCrudeIron" quality="1,50" />
+		<item name="ulmMeleeAxeScrapIron" quality="1,50" />
+		<item name="ulmToolShovelScrapIron" quality="1,50" /></trader_item_group>
+	
+	<trader_item_group name="groupVehicleMods" count="1">
+		<item name="ulmModVehicleCargoBag" quality="1,30" />
+		<item name="ulmModVehicleShockAbsorbers" quality="1,30" />
+		<item name="modVehicleFuelSaver" quality="1,30" />
+		<item name="modVehicleOffRoadHeadlights" quality="1,30" />
+		<item name="modVehicleSuperCharger" quality="1,30" />
+		<item name="modVehicleReserveFuelTank" quality="1,30" /></trader_item_group>
+
+	<trader_item_group name="groupVehiclesMotorcycles" count="1">
+		<item group="groupVehicleMinibike" />
+		<item group="groupVehicleWanderer" />
+		<item group="groupVehicleRenegade" />
+		<item group="groupVehicleThunderbird" /></trader_item_group>
+
+	<trader_item_group name="groupVehiclesCommon" count="1">
+		<item group="groupEngines" />
+		<item group="groupVehicleWheels" />
+		<item group="groupVehicleBicycle" />
+		<item group="groupVehiclesMotorcycles" />
+		<item group="groupVehicleQuadBike" />
+		<item group="groupVehicleGokart" />
+		<item group="groupVehicleSedan1" />
+		<item group="groupVehicleMods" prob="0.25" /></trader_item_group>
+
+	<trader_item_group name="groupVehiclesRare" count="1">
+		<item name="ulmVehicleMineCart" />
+		<item group="groupVehiclesMotorcycles" />
+		<item group="groupVehicleDuneRunner" />
+		<item group="groupVehicleSedan2" />
+		<item group="groupVehicleSedan3" />
+		<item group="groupVehicleSUV" />
+		<item group="groupVehicleHumvee" />
+		<item group="groupVehicleMuscle" />
+		<item group="groupVehicleCoupe1" /></trader_item_group>
+
+	<trader_item_group name="groupVehiclesEpic" count="1">
+		<item name="ulmVehicleMiningDumpTruck" />
+		<item name="ulmVehiclePoliceCruiser" />
+		<item name="ulmVehicleAmbulance1" />
+		<item group="groupVehicleMinivan" />
+		<item group="groupVehicleMilitaryTruck" />
+		<item group="groupVehicleGyrocopter" />
+		<item group="groupVehicleHelicopterRaven" />
+		<item group="groupVehicleHelicopterDH800" /></trader_item_group>
+
+	<trader_item_group name="groupVehicles" count="1">
+		<item group="groupVehiclesCommon" />
+		<item group="groupVehiclesRare" prob=".4" />
+		<item group="groupVehiclesEpic" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="decorativeCurtains" count="all">
+		<item name="curtain_top1Sheet3" count="10,15" />
+		<item name="curtain_bottom1Sheet3" count="10,15" /></trader_item_group>
+
+	<trader_item_group name="decorativeBlinds" count="all">
+		<item name="miniblindTopSheet" count="10,15" />
+		<item name="miniblindBottomSheet" count="10,15" /></trader_item_group>
+		
+	<trader_item_group name="groupDecoToys" count="1">
+		<item name="ulmDecoToyBear" />
+		<item name="ulmDecoToyElephant" />
+		<item name="ulmDecoToyRobot1" />
+		<item name="ulmDecoToyRobot2" />
+		<item name="ulmDecoToyRobot3" />
+		<item name="ulmDecoToyRocket" />
+		<item name="ulmDecoToySquirrel" /></trader_item_group>
+
+	<trader_item_group name="groupDeco" count="1">
+		<item group="decorativeCurtains" />
+		<item group="decorativeBlinds" />
+		<item group="groupDecoToys" count="1" prob=".1" />
+		<item name="cntCashRegister" />
+		<item name="cntCoolerClosed" />
+		<item name="cntFileCabinetTallClosed" />
+		<item name="cntWaterCoolerFull" />
+		<item name="airConditioner" count="2,3" />
+		<item name="cntCabinetOldSink" count="2,4" />
+		<item name="cntGraniteSink" count="2,4" />
+		<item name="cntLockersShortClosed" count="2,4" />
+		<item name="cntMunitionsBox" count="2,3" />
+		<item name="faucetBrass02" count="2,4" />
+		<item name="faucetBrass04" count="2,4" />
+		<item name="fusebox" count="2,3" />
+		<item name="couchSofa01" count="2,3" />
+		<item name="chairCouchSofa01" count="3,5" />
+		<item name="leatherChairCouchSofa2" count="2,3" />
+		<item name="pipeLargeBlockVariantHelper" count="20,30" />
+		<item name="pipeSmallBlockVariantHelper" count="20,30" />
+		<item name="cntShoppingCartEmpty" count="2,4" />
+		<item name="treeAzalea" count="8,15" />
+		<item name="barStoolVariantHelper" count="4,8" />
+		<item name="window02" count="4,15" /></trader_item_group>
+
+	<trader_item_group name="groupLights" count="1">
+		<item name="spotlightPlayer" count="2,5" prob="40" />
+		<item name="ulmLightPorch01Player" count="2,5" />
+		<item name="ulmLightPorch04Player" count="2,5" />
+		<item name="ulmLightPorch04BrassPlayer" count="2,5" />
+		<item name="ulmLightCeiling02Player" count="2,5" />
+		<item name="ulmLightCeiling02BrassPlayer" count="2,5" />
+		<item name="ulmLightCeiling04Player" count="2,5" />
+		<item name="ulmLightCeiling05Player" count="2,5" />
+		<item name="ulmLightCeiling05BrassPlayer" count="2,5" />
+		<item name="ulmLightRecessedPlayer" count="2,5" />
+		<item name="ulmLightWall01Player" count="2,5" />
+		<item name="ceilingLight07_player" count="2,5" />
+		<item name="ulmLightFluorescentPlayer" count="2,5" />
+		<item name="ulmLightTrackPlayer" count="2,5" />
+		<item name="industrialLight01_player" count="2,5" />
+		<item name="ulmLightSconcePlayer" count="2,5" />
+		<item name="lanternLight_player" count="2,5" />
+		<item name="ulmLightFlashlightPlayer" count="2,5" />
+		<item name="industrialLight02_player" count="2,5" />
+		<item name="ulmLightCeilingFanPlayer" count="2,5" />
+		<item name="ulmLightChandelierFanPlayer" count="2,5" />
+		<item name="ulmLightSignExitPlayer" count="2,5" />
+		<item name="ulmLightRoadBarricadePlayer" count="2,5" />
+		<item name="ulmLightDeskLampPlayer" count="2,5" />
+		<item name="ulmLightTableLampPlayer" count="2,5" />
+		<item name="ulmLightWorkLampPlayer" count="2,5" />
+		<item name="ulmStreetLight01Player" count="2,5" />
+		<item name="ulmStreetLight02Player" count="2,5" />
+		<item name="ulmStreetLight03Player" count="2,5" />
+		<item name="ulmStreetLight04Player" count="2,5" />
+		<item name="ulmFluorescentLightPlayer" count="2,5" />
+		<item name="ulmFluorescentLightBrokenPlayer" count="2,5" />
+		<item name="ulmLightStreetLampClassicPlayer" count="2,5" />
+		<item name="ulmLightSignOpen" count="2,5" />
+		<item name="meleeToolFlashlight02" count="1" /></trader_item_group>
+
+	<trader_item_group name="groupTrapsRare" count="1">
+		<item name="shotgunTurret" count="1,2" />
+		<item name="autoTurret" count="1,2" prob="0.4" /></trader_item_group>
+
+	<trader_item_group name="groupTrapsCommon" count="1">
+		<item name="ammoDartIron" count="15,70" />
+		<item name="mineCandyTin" count="1,6" />
+		<item name="mineHubcap" count="1,5" />
+		<item name="mineAirFilter" count="1,4" />
+		<item name="bladeTrap" count="1,3" prob="0.8" />
+		<item name="tripwirepost" count="1,5" />
+		<item name="ulmTrapPoweredSpikes" count="1,2" />
+		<item name="dartTrap" count="1,2" />
+		<item name="pressureplate" count="1,5" />
+		<item name="electricfencepost" count="1,4" /></trader_item_group>
+
+	<trader_item_group name="groupTrapsAll" count="1">
+		<item group="groupTrapsCommon" />
+		<item group="groupTrapsRare" prob=".2" /></trader_item_group>
+
+	<trader_item_group name="groupPoweredDoors" count="1">
+		<item name="garageDoorMetal_v1Powered" />
+		<item name="vaultDoor03_Powered" />
+		<item name="vaultHatch_v3_Powered" />
+		<item name="garageDoorIndustrial_Powered" />
+		<item name="metalReinforcedWoodDrawBridgePowered" /></trader_item_group>
+
+	<trader_item_group name="groupPowerGeneration" count="1">
+		<item name="generatorbank" count="1" />
+		<item name="batterybank" count="1" />
+		<item name="electrictimerrelay" count="1,3" />
+		<item name="electricwirerelay" count="5,15" />
+		<item name="motionsensor" count="1,2" />
+		<item name="speaker" count="1,2" />
+		<item name="switch" count="3,9" />
+		<item name="solarCell" count="1" quality="1,20" prob=".1" /></trader_item_group>
+
+	<trader_item_group name="groupElectrical" count="1">
+		<item group="groupPowerGeneration" />
+		<item group="groupTrapsAll" />
+		<item group="groupPoweredDoors" />
+		<item group="groupLights" />
+		<item name="resourceElectricParts" count="20,50" />
+		<item name="ulmResourceBatterySmall" count="10,30" />
+		<item name="ulmResourceScrapWires" count="50,100" /></trader_item_group>
+
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = -->
+
+	<trader_item_group name="groupGeneral" count="1">
+		<item group="groupClothing" count="2,4" />
+		<item group="groupGunParts" count="1" prob=".4" />
+		<item group="groupBooksAll" count="1,3" />
+		<item group="groupAmmo" count="1" prob="2" />
+		<item group="groupSeeds" count="1,4" />
+		<item group="groupFoodCanned" count="1,2" />
+		<item group="groupFoodRaw" count="2,5" />
+		<item group="groupFoodPrepared" count="1,2" />
+		<item group="groupDrinks" count="1" />
+		<item group="groupResourcesBuilding" count="1,3" prob=".8" />
+		<item group="groupToolsRare" count="1" prob=".3" />
+		<item group="groupMedicineAll" count="1,2" /></trader_item_group>
+
+	<trader_item_group name="generalNoArmorNoTools" count="1">
+		<item group="groupGunParts" count="1" prob=".4" />
+		<item group="groupBooksAll" count="1,3" />
+		<item group="groupAmmo" count="1" prob="2" />
+		<item group="groupSeeds" count="1,4" />
+		<item group="groupFoodCanned" count="1,2" />
+		<item group="groupFoodRaw" count="2,5" />
+		<item group="groupFoodPrepared" count="1,2" />
+		<item group="groupDrinks" count="1" />
+		<item group="groupResourcesBuilding" count="1,3" prob=".8" />
+		<item group="groupMedicineAll" count="1,2" /></trader_item_group>
+
+	<trader_item_group name="generalNoAmmo" count="1">
+		<item group="groupBooksAll" count="1,3" />
+		<item group="groupSeeds" count="1,4" />
+		<item group="groupFoodCanned" count="1,2" />
+		<item group="groupFoodRaw" count="2,5" />
+		<item group="groupFoodPrepared" count="1,2" />
+		<item group="groupDrinks" count="1" />
+		<item group="groupResourcesBuilding" count="1,3" prob=".8" />
+		<item group="groupToolsRare" count="1" prob=".3" />
+		<item group="groupMedicineAll" count="1,2" /></trader_item_group>
+
+</trader_item_groups>
+	
+	<!-- Trader Joel -->
+	<trader_info id="1" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="1" />
+			<item group="groupFood" count="1,3" />
+			<item group="groupResourcesGeneral" count="10,20" />
+			<item group="groupResourcesBuilding" count="2,8" />
+			<item group="generalNoArmorNoTools" count="4,8" />
+			<item group="groupGunsAll" count="1" />
+			<item group="groupGunParts" count="1" />
+			<item group="groupVehicles" count="1" />
+			<item group="modsT1SecretStash" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+
+	<!-- Trader Jen -->
+	<trader_info id="2" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupResourcesGeneral" count="10,20" />
+			<item group="groupResourcesBuilding" count="2,8" />
+			<item group="generalNoAmmo" count="4,8" />
+			<item group="groupFood" count="1,3" />
+			<item group="groupMedicineAll" count="2,5" />
+			<item group="groupMedicineRare" count="2,3" />
+			<item group="groupDeco" count="2,7" />
+			<item group="groupElectrical" count="1,2" />
+			<item group="groupToolsCommon" count="1,2" />
+			<item group="groupClothing" count="1,4" />
+			<item group="groupVehicles" count="1" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Trader Bob -->
+	<trader_info id="6" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupResourcesGeneral" count="10,20" />
+			<item group="groupResourcesBuilding" count="2,8" />
+			<item group="groupFood" count="1,3" />
+			<item group="groupElectrical" count="2,4" />
+			<item group="generalNoAmmo" count="4,8" />
+			<item group="groupToolsCommon" count="2,3" />
+			<item group="groupMeleeAll" count="1" />
+			<item group="groupClothing" count="1,4" />
+			<item group="groupArmor" count="2,4" />
+			<item group="groupElectrical" count="1,2" />
+			<item group="groupDeco" count="2,7" />
+			<item group="groupVehicles" count="2,3" />
+			<item group="modsMelee" count="1,2" />
+			<item group="modsArmor" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+
+	<!-- Trader Hugh -->
+	<trader_info id="7" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupFood" count="1,3" />
+			<item group="generalNoAmmo" count="4,8" />
+			<item group="groupResourcesBuilding" count="2,8" />
+			<item group="groupDeco" count="2,7" />
+			<item group="groupMeleeAll" count="2,4" />
+			<item group="groupToolsCommon" count="1,2" />
+			<item group="groupClothing" count="1,4" />
+			<item group="groupArmor" count="2,4" />
+			<item group="groupElectrical" count="1,2" />
+			<item group="groupVehicles" count="1" />
+			<item group="modsMelee" count="1,2" />
+			<item group="modsArmor" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+
+	<!-- Trader Rekt -->
+	<trader_info id="8" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="1" />
+			<item group="groupFood" count="1,3" />
+			<item group="groupToolsCommon" count="1,2" />
+			<item group="groupMeleeAll" count="1" />
+			<item group="groupGunsAll" count="1" />
+			<item group="groupGunParts" count="1" />
+			<item group="groupClothing" count="1,4" />
+			<item group="groupArmor" count="2,4" />
+			<item group="groupElectrical" count="1,2" />
+			<item group="groupVehicles" count="1" />
+			<item group="modsT1SecretStash" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- General Trader (Ellen) -->
+	<trader_info id="16" full_reset="true" min_inventory="30" max_inventory="60" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupResourcesGeneral" count="10,20" />
+			<item group="groupResourcesBuilding" count="2,8" />
+			<item group="generalNoAmmo" count="4,8" />
+			<item group="groupFood" count="1,3" />
+			<item group="groupMedicineAll" count="1,2" />
+			<item group="groupFoodCanned" count="1,2" />
+			<item group="groupToolsCommon" count="1,2" />
+			<item group="groupVehicles" count="1" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Armor, Ammo, Guns -->
+	<trader_info id="17" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="2" prob="2" />
+			<item group="groupMeleeAll" count="1" />
+			<item group="groupGunsAll" count="2,3" />
+			<item group="groupGunParts" count="1,2" />
+			<item group="groupClothing" count="2,5" />
+			<item group="groupArmor" count="2,4" />
+			<item group="modsT1SecretStash" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Blacksmith Armor and Melee and Clothing -->
+	<trader_info id="18" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupClothing" count="3,5" />
+			<item group="groupToolsCommon" count="1,2" />
+			<item group="groupToolsRare" count="1" prob=".1" />
+			<item group="groupMeleeAll" count="1" />
+			<item group="groupArmor" count="2,6" />
+			<item group="groupElectrical" count="1,2" />
+			<item group="groupDeco" count="2,7" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Ammo and Guns -->
+	<trader_info id="19" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="2,3" prob="2" />
+			<item group="groupGunsAll" count="2,3" />
+			<item group="groupGunParts" count="1,2" />
+			<item group="modsGuns" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Ammo and More Guns -->
+	<trader_info id="20" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="2,3" prob="2" />
+			<item group="groupGunParts" count="1,2" />
+			<item group="groupGunsAll" count="2,3" />
+			<item group="groupGunsRare" count="1,2" />
+			<item group="modsGuns" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Armor, Ammo, All Weapons, All Mods, No Clothing -->
+	<trader_info id="21" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupAmmo" count="2,3" prob="2" />
+			<item group="groupMeleeAll" count="1" />
+			<item group="groupGunsAll" count="1" />
+			<item group="groupGunParts" count="1,2" />
+			<item group="groupArmorLight" count="1,2" />
+			<item group="groupArmorHeavy" count="1,2" />
+			<item group="modsT1SecretStash" count="1,2" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+	
+	<!-- Resources, Seeds and Deco Blocks -->
+	<trader_info id="22" full_reset="true" min_inventory="25" max_inventory="40" min_items_swapped="20" max_items_swapped="20" reset_interval="4" open_time="4:05" close_time="21:55">
+		<trader_items count="all">
+			<item group="groupGeneral" count="4,8" />
+			<item group="groupResourcesGeneral" count="10,20" />
+			<item group="groupResourcesBuilding" count="4,10" />
+			<item group="groupSeeds" count="1,3" />
+			<item group="groupFoodCanned" count="3,7" />
+			<item group="groupDeco" count="3,8" /></trader_items>
+
+	<tier_items level="1,999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupGunParts" count="1" />
+		<item group="groupAmmo" count="1,2" />
+		<item group="groupArmorLight" count="1" />
+		<item group="groupArmorHeavy" count="1" />
+		<item group="groupBooksCommon" count="1,2" />
+		<item group="groupBooksRare" count="1" />
+		<item group="groupBooksPerks" count="1" />
+		<item group="groupVehicles" count="1" />
+		<item group="modsMeleeCommon" count="1" />
+		<item group="modsT2SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="1000,1999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="solarCell" count="1,3" quality="1,20" />
+		<item name="solarbank" count="1" prob=".25" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1" />
+		<item group="groupToolsRare" count="1" />
+		<item group="groupMeleeAll" count="1,2" />
+		<item group="groupGunsAll" count="1,2" />
+		<item group="groupAmmo" count="2,5" />
+		<item group="groupArmorHeavy" count="1,2" />
+		<item group="groupArmorLight" count="1,2" />
+		<item group="groupBooksCommon" count="2,3" />
+		<item group="groupBooksRare" count="1,2" />
+		<item group="groupBooksPerks" count="1,2" />
+		<item group="groupVehicles" count="1,2" />
+		<item group="groupTrapsRare" count="1,2" />
+		<item group="modsT3SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="2000,2999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="1" />
+		<item name="armorMiningHelmet" count="1" quality="11,30" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,30" />
+		<item name="solarCell" count="1,3" quality="11,30" />
+		<item name="solarbank" count="1" prob=".5" />
+		<item group="groupElectrical" count="2,3" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="1,2" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupAmmo" count="3,6" />
+		<item group="groupArmorHeavyT2" count="1,2" />
+		<item group="groupArmorMilitary" count="1,2" />
+		<item group="groupBooksCommon" count="3,4" />
+		<item group="groupBooksRare" count="2" />
+		<item group="groupBooksPerks" count="2" />
+		<item group="groupVehicles" count="1,3" />
+		<item group="groupTrapsRare" count="2,3" />
+		<item group="groupGunsEpic" count="1,2" />
+		<item group="modsT4SecretStash" count="1,2" /></tier_items>
+
+	<tier_items level="3000,3999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="11,40" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="11,40" />
+		<item name="solarCell" count="1,3" quality="11,40" />
+		<item name="solarbank" count="1" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="3,5" />
+		<item group="groupToolsCommon" count="1,2" />
+		<item group="groupToolsRare" count="3,4" />
+		<item group="groupMeleeAll" count="2,3" />
+		<item group="groupGunsAll" count="2,3" />
+		<item group="groupGunsRare" count="1" />
+		<item group="groupAmmo" count="5,8" />
+		<item group="groupArmorHeavyT2" count="2,3" />
+		<item group="groupArmorMilitary" count="2,3" />
+		<item group="groupBooksCommon" count="4,5" />
+		<item group="groupBooksRare" count="2,3" />
+		<item group="groupBooksPerks" count="2,3" />
+		<item group="groupVehicles" count="2,3" />
+		<item group="groupTrapsRare" count="3,4" />
+		<item group="groupWeaponsStash" count="1,2" />
+		<item group="modsT5SecretStash" count="1,4" /></tier_items>
+			
+	<tier_items level="4000,4999" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,2" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="21,50" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="carBattery" count="1,2" quality="21,50" />
+		<item name="solarCell" count="2,4" quality="21,50" />
+		<item name="solarbank" count="1,2" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="4,6" />
+		<item group="groupToolsCommon" count="2,3" />
+		<item group="groupToolsRare" count="4,5" />
+		<item group="groupMeleeAll" count="2,4" />
+		<item group="groupGunsAll" count="2,4" />
+		<item group="groupGunsRare" count="1,2" />
+		<item group="groupWeaponsStash" count="2,3" />
+		<item group="groupAmmo" count="6,9" />
+		<item group="groupArmorHeavyT2" count="2,4" />
+		<item group="groupArmorMilitary" count="2,4" />
+		<item group="groupBooksCommon" count="5,6" />
+		<item group="groupBooksRare" count="2,4" />
+		<item group="groupBooksPerks" count="2,4" />
+		<item group="groupVehicles" count="3,4" />
+		<item group="groupTrapsRare" count="4,5" />
+		<item group="modsT5SecretStash" count="3,6" /></tier_items>
+		
+	<tier_items level="5000,-1" count="all"><!--Element inserted by: "UndeadLegacy_ContentModule01"-->
+		<item name="drinkJarGrandpasForgettingElixir" count="1,3" />
+		<item name="cntVendingMachine" count="2" />
+		<item name="armorMiningHelmet" count="1" quality="31,60" mods="modArmorHelmetLight" mod_chance="1" />
+		<item name="solarCell" count="3,5" quality="31,60" />
+		<item name="carBattery" count="1,2" quality="31,60" />
+		<item name="solarbank" count="2,3" />
+		<item name="apparelNightvisionGoggles" count="1" />
+		<item group="groupElectrical" count="6,7" />
+		<item group="groupToolsCommon" count="3,4" />
+		<item group="groupToolsRare" count="5,6" />
+		<item group="groupMeleeAll" count="3,4" />
+		<item group="groupGunsAll" count="3,4" />
+		<item group="groupGunsRare" count="2,3" />
+		<item group="groupWeaponsStash" count="3,4" />
+		<item group="groupAmmo" count="7,10" />
+		<item group="groupArmorHeavyT2" count="3,4" />
+		<item group="groupArmorMilitary" count="3,4" />
+		<item group="groupBooksCommon" count="6,7" />
+		<item group="groupBooksRare" count="2,5" />
+		<item group="groupBooksPerks" count="2,5" />
+		<item group="groupVehicles" count="4,5" />
+		<item group="groupTrapsRare" count="4,6" />
+		<item group="modsT5SecretStash" count="4,7" /></tier_items>
+			
+</trader_info>
+
+	<!-- Player Owned - Vending Machine -->
+	<trader_info id="3" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" player_owned="true" />
+
+	<!-- Vending Machines found in the world. -->
+	<trader_info id="4" full_reset="true" reset_interval="4" override_buy_markup="1.0" allow_sell="false" min_inventory="12" max_inventory="24" min_items_swapped="6" max_items_swapped="13">
+		<trader_items count="10">
+			<item group="groupFoodCandy" count="1" />
+			<item group="groupFoodCanned" count="1" prob=".3" />
+			<item group="groupDrinks" count="1" prob=".3" />
+		</trader_items>
+	</trader_info>
+
+	<!-- Rented - Vending Machine -->
+	<trader_info id="5" reset_interval="-1" override_buy_markup="1.0" override_sell_markup="1.0" allow_sell="false" rentable="true" rent_cost="2500" rent_time="30" />
+
+</traders>

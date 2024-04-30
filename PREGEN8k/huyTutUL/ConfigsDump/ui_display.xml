@@ -1,0 +1,1288 @@
+﻿<ui_display_info>
+<!-- all of the name= entries are CASE SENSITIVE
+
+All the perk tags:
+
+-->
+	<item_display>
+		<item_display_info display_type="rangedGun" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="210" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+	<display_entry name="MagazineSize" max="200" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="RoundsPerMinute" max="10" suffix="/s" icon="symbol_attack_speed" title_key="statFireRate" display_type="Decimal1" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" />
+	<display_entry name="dTargetArmor" max="-30" icon="symbol_shield" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="rangedGunNoMag" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+	<display_entry name="MagazineSize" max="200" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" />
+	<display_entry name="dTargetArmor" max="-30" icon="symbol_shield" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="rangedShotgun" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="200" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" string_format="0.#" />
+	<display_entry name="MagazineSize" max="16" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="RoundsPerMinute" max="1.5" suffix="/s" icon="symbol_attack_speed" title_key="statFireRate" display_type="Decimal1" string_format="0.#" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" display_type="Decimal1" string_format="0.#" />
+    <display_entry name="dStatStunEffect" suffix="s" icon="symbol_stunned" title_key="statStunEffect" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="rangedShotgunNoMag" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+	<display_entry name="MagazineSize" max="200" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" />
+	<display_entry name="dStatStunEffect" suffix="s" icon="symbol_stunned" title_key="statStunEffect" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="rangedLauncher" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="315" icon="symbol_damage" title_key="statEntityDamage" />
+	<display_entry name="BlockDamage" max="3800" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="MagazineSize" max="1" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="RoundsPerMinute" max="1.25" suffix="/s" icon="symbol_attack_speed" title_key="statRoundsPerMinute" display_type="Decimal1" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" /></item_display_info>
+
+		<item_display_info display_type="rangedBow" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+	<display_entry name="ProjectileVelocity" max="100" icon="symbol_velocity" title_key="statProjectileVelocity" display_type="Decimal1" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" /></item_display_info>
+
+		<item_display_info display_type="adminRanged" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="5000" icon="symbol_damage" title_key="statEntityDamage" />
+	<display_entry name="BlockDamage" max="20000" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="RoundsPerMinute" max="10" suffix="/s" icon="symbol_attack_speed" title_key="statRoundsPerMinute" display_type="Decimal1" />
+    <display_entry name="MaxRange" max="200" icon="symbol_aim" title_key="statMaxRange" /></item_display_info>
+
+		<item_display_info display_type="melee" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" tags="secondary" display_type="Decimal1" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="DismemberChance" max="30" icon="symbol_dismember" title_key="statDismemberChance" display_type="Percent" ignore_player="true" /></item_display_info>
+
+		<item_display_info display_type="meleeSpear" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" display_type="Decimal1" tags="secondary" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+	<display_entry name="dTargetArmor" max="100" icon="symbol_shield" title_key="statTargetArmor" show_inverted_fill="true" display_type="Percent" display_leading_plus="true" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="meleeHeavy" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" display_type="Decimal1" tags="secondary" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+	<display_entry name="dTargetArmor" max="100" icon="symbol_shield" title_key="statTargetArmor" show_inverted_fill="true" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+	<display_entry name="dEntityDamageSneak" icon="ui_game_symbol_sneak_attack" title_key="statEntityDamageSneak" display_type="Bool" /></item_display_info>
+
+		<item_display_info display_type="meleeKnife" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" display_type="Decimal1" tags="secondary" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="StaminaMax" max="20" icon="symbol_stamina_max" title_key="statStaminaMax" ignore_player="true" />
+	<display_entry name="dBleeding" max="1" icon="symbol_bleed" title_key="buffInjuryBleedingName" display_type="Percent" />
+	<display_entry name="dMoveSpeed" max="1" icon="ui_game_symbol_run" title_key="uiMovementSpeed" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="meleeRepairTool" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+	<display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+	<display_entry name="dBlockRepairAmount" max="1000" icon="symbol_repair" title_key="statBlockRepairAmount" /></item_display_info>
+
+		<item_display_info display_type="rangedRepairTool" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" tags="perkMiner69r" display_type="Decimal1" />
+	<display_entry name="dBlockRepairAmount" max="1000" icon="symbol_repair" title_key="statBlockRepairAmount" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="DamageFalloffRange" max="100" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" />
+	<display_entry name="RoundsPerMinute" max="10" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="motorTool" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+	<display_entry name="MagazineSize" max="700" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="RoundsPerMinute" max="10" suffix="/s" icon="symbol_attack_speed" title_key="statRoundsPerMinute" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="simpleTool" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" display_type="Decimal1" tags="secondary" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="meleeTorch" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" />
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage_power" title_key="statPowerAttack" tags="secondary" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+    <display_entry name="StaminaLoss" max="50" icon="symbol_stamina" title_key="statStaminaLoss" negative_preferred="true" />
+    <display_entry name="AttacksPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statAttackSpeed" display_type="Decimal1" />
+	<display_entry name="dBurning" max="0.3" icon="symbol_fire" title_key="statBurning" display_type="Percent" />
+	<display_entry name="HypothermalResist" max="7" icon="symbol_cold" title_key="statHypothermalResist" /></item_display_info>
+
+		<item_display_info display_type="meleeTurret" display_group="groupMelee"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="EntityDamage" max="50" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+    <display_entry name="BlockDamage" max="50" icon="symbol_damage_block" title_key="statBlockDamage" display_type="Decimal1" />
+	<display_entry name="RoundsPerMinute" max="1.2" suffix="/s" icon="symbol_attack_speed" title_key="statFireRate" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="rangedTurret" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="EntityDamage" max="20" icon="symbol_damage" title_key="statEntityDamage" display_type="Decimal1" />
+	<display_entry name="MagazineSize" max="150" icon="symbol_ammo_clip" title_key="statMagazineSize" />
+	<display_entry name="RoundsPerMinute" max="2" suffix="/s" icon="symbol_attack_speed" title_key="statRoundsPerMinute" display_type="Decimal1" />
+	<display_entry name="DamageFalloffRange" max="5" suffix="m" icon="symbol_aim" title_key="statDamageFalloffRange" /></item_display_info>
+
+		<item_display_info display_type="droneTurret" display_group="groupRanged"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="VehicleCargoCapacity" max="500" icon="symbol_backpack" title_key="statCargo" /></item_display_info>
+
+		<item_display_info display_type="ammoBullet" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" />
+    <display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" /></item_display_info>
+
+		<item_display_info display_type="ammoBulletAP" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dTargetArmor" max="-100" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" display_type="Percent" negative_preferred="true" />
+	<display_entry name="dTargetPenetration" max="2" icon="symbol_shield_penetrate" title_key="statTargetPenetration" display_leading_plus="true" />
+	<display_entry name="dDegradationPerUse" max="100" icon="symbol_durability" title_key="statDegradationPerUse" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="ammoBulletHP" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dTargetArmor" max="-100" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="ammoShotgun" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="dTargetArmor" max="-100" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" display_type="Percent" negative_preferred="true" />
+<!--<display_entry name="RoundRayCount"			max="10"		        icon="symbol_pellets"				title_key="statRoundRayCount"/>--></item_display_info>
+		<item_display_info display_type="ammoShotgunSlug" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+<!--<display_entry name="RoundRayCount"			max="10"		        icon="symbol_pellets"				title_key="statRoundRayCount"/>-->
+	<display_entry name="dTargetArmor" max="-100" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" display_type="Percent" negative_preferred="true" />
+	<display_entry name="dTargetPenetration" max="2" icon="symbol_shield_penetrate" title_key="statTargetPenetration" display_leading_plus="true" />
+	<display_entry name="dDegradationPerUse" max="100" icon="symbol_durability" title_key="statDegradationPerUse" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="ammoShotgunBreaching" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+<!--<display_entry name="RoundRayCount"			max="10"		        icon="symbol_pellets"				title_key="statRoundRayCount"/>-->
+	<display_entry name="dDamageDoor" max="1000" icon="symbol_door" title_key="statBlockDamageDoor" display_leading_plus="true" /></item_display_info>
+
+		<item_display_info display_type="ammoJunkTurretRegular" display_group="groupAmmo">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+			<display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+		</item_display_info>
+		<item_display_info display_type="ammoJunkTurretAP" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dTargetArmor" max="100" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" show_inverted_fill="true" display_type="Percent" negative_preferred="true" />
+	<display_entry name="dTargetPenetration" max="2" icon="symbol_shield_penetrate" title_key="statTargetPenetration" display_leading_plus="true" />
+	<display_entry name="dDegradationPerUse" max="100" icon="symbol_durability" title_key="statDegradationPerUse" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="ammoArrow" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamage" max="30" suffix="%" icon="symbol_damage" title_key="statEntityDamage" display_leading_plus="true" />
+    <display_entry name="dEntityDamageFire" max="120" icon="symbol_fire" title_key="statEntityDamageFire" />
+	<display_entry name="dDuration" max="14" suffix="s" icon="symbol_timer" title_key="statDuration" display_type="Time" />
+	<display_entry name="dExDamageEntity" max="250" icon="symbol_damage" title_key="statEntityDamageExplosion" />
+	<display_entry name="dExRadius" max="4" suffix="m" icon="symbol_explosion" title_key="statExRadius" />
+	<display_entry name="dProjectileVelocity" max="40" icon="symbol_velocity" title_key="statProjectileVelocity" display_leading_plus="true" />
+	<display_entry name="dTargetArmor" max="-20" icon="symbol_shield" title_key="statTargetArmor" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="ammoArrowAP" display_group="groupAmmo">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+			<display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkArchery,admin" />
+			<display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+			<display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+		</item_display_info>
+		<item_display_info display_type="ammoDart" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statEntityDamage" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="ProjectileVelocity" max="100" icon="symbol_velocity" title_key="statProjectileVelocity" /></item_display_info>
+		<item_display_info display_type="ammoArrowFlaming" display_group="groupAmmo">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+			<display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+			<display_entry name="dEntityDamageFire" title_key="statEntityDamageFire" />
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+			<display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+		</item_display_info>
+		<item_display_info display_type="ammoArrowExploding" display_group="groupAmmo">
+			<display_entry name="EntityDamage" title_key="statEntityDamageExplosion" tags="perkArchery,admin" />
+			<display_entry name="BlockDamage" title_key="statBlockDamage" tags="perkArchery,admin" />
+			<display_entry name="dExRadius" title_key="statExRadius" />
+			<display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+		</item_display_info>
+
+		<item_display_info display_type="ammoLauncher" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="EntityDamage" max="650" icon="symbol_damage" title_key="statEntityDamageExplosion" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="dExRadius" max="6" suffix="m" icon="symbol_explosion" title_key="statExRadius" /></item_display_info>
+
+		<item_display_info display_type="ammoGrenade" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="EntityDamage" max="650" icon="symbol_damage" title_key="statEntityDamageExplosion" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="dExRadius" max="6" suffix="m" icon="symbol_explosion" title_key="statExRadius" />
+	<display_entry name="dFuseTime" max="4" suffix="s" icon="symbol_timer" title_key="statFuseTime" display_type="Time" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="ammoGrenadeContact" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="EntityDamage" max="650" icon="symbol_damage" title_key="statEntityDamageExplosion" />
+	<display_entry name="BlockDamage" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="dExRadius" max="6" suffix="m" icon="symbol_explosion" title_key="statExRadius" /></item_display_info>
+		<item_display_info display_type="ammoGrenadeTimedCharge" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="EntityDamage" max="650" icon="symbol_damage" title_key="statEntityDamageExplosion" />
+	<display_entry name="dExDamageBlock" max="3000" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="dExRadius" max="6" suffix="m" icon="symbol_explosion" title_key="statExRadius" />
+	<display_entry name="dFuseTime" max="4" suffix="s" icon="symbol_timer" title_key="statFuseTime" display_type="Time" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="ammoGrenadeFire" display_group="groupAmmo"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="dExDamageFire" max="120" icon="symbol_fire" title_key="statEntityDamageFire" />
+	<display_entry name="dDuration" max="16" suffix="s" icon="symbol_timer" title_key="statDuration" display_type="Time" />
+	<display_entry name="dExDamageBlock" max="200" icon="symbol_damage_block" title_key="statBlockDamage" />
+	<display_entry name="dExRadius" max="6" suffix="m" icon="symbol_explosion" title_key="statExRadius" /></item_display_info>
+
+		<item_display_info display_type="modCarryCapacity" display_group="modAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="CargoCapacity" max="100" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" display_type="Decimal1" />
+    <display_entry name="PhysicalDamageResist" max="1" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+	<display_entry name="Mobility" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_leading_plus="true" display_type="Percent" show_inverted="true" /></item_display_info>
+
+		<item_display_info display_type="modNoiseReduction" display_group="modAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dNoiseMultiplier" max="10" icon="ui_game_symbol_stealth" title_key="statNoiseReduction" display_type="Percent" show_inverted_fill="true" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="modTempResist" display_group="modAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="HypothermalResist" max="6" icon="symbol_cold" title_key="statHypothermalResist" display_leading_plus="true" />
+    <display_entry name="HyperthermalResist" max="6" icon="symbol_heat" title_key="statHyperthermalResist" display_leading_plus="true" /></item_display_info>
+
+		<item_display_info display_type="modArmor" display_group="modAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="PhysicalDamageResist" max="2" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="modArmorMobility" display_group="modAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Mobility" max="-3" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_leading_plus="true" display_type="Percent" show_inverted="true" />
+	<display_entry name="#dStaminaChangeOT" max="0.056" icon="ui_game_symbol_run" title_key="statStaminaChangeOT" display_leading_plus="true" display_type="Decimal1" /></item_display_info>
+
+		<item_display_info display_type="armor" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorLight" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorLightStealth" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorLightTempResist" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorHeavy" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorHeavyHeatResist" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="armorGasmask" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<!-- This works to display individual resistances
+	<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+	<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+    <display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+    <display_entry name="PhysicalDamageResist" max="20" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" display_type="Decimal1" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" display_type="Decimal1" ignore_player="true" />
+<!--<display_entry name="ElementalDamageResist"	max="20"		        icon="symbol_explosion_resistance"	title_key="statExplosionResistance"		display_type="Decimal1" tags="heat,electrical"/>-->
+    <display_entry name="BuffResistance" max="20" icon="symbol_infection" title_key="statCritDamageResist" display_type="Percent" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger" ignore_player="true" />
+    <display_entry name="dStaminaChangeOT" max="-1" suffix="/s" icon="ui_game_symbol_run" title_key="statStaminaDrainOT" display_type="Decimal1" show_inverted_fill="true" />
+	<display_entry name="#dNoiseMultiplier" max="20" icon="ui_game_symbol_stealth" title_key="statNoiseIncrease" display_type="Percent" negative_preferred="true" display_leading_plus="true" /><!-- display_empty="true"-->
+	<display_entry name="CargoCapacity" max="80" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+	<display_entry name="Mobility" max="-10" icon="ui_game_symbol_pack_mule" title_key="statMobility" display_type="Percent" show_inverted="true" show_inverted_fill="true" negative_preferred="false" /></item_display_info>
+
+		<item_display_info display_type="clothing" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" ignore_player="true" /></item_display_info>
+		<item_display_info display_type="clothingRunningShoes" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" ignore_player="true" />
+	<display_entry name="dStaminaRegen" max=".2" icon="ui_game_symbol_run" title_key="statStaminaRegenRunning" display_leading_plus="true" display_type="Percent" /></item_display_info>
+		<item_display_info display_type="clothingJacketLetter" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" ignore_player="true" />
+	<display_entry name="dRunSpeed" max="10" icon="ui_game_symbol_run" title_key="statRunSpeed" display_leading_plus="true" display_type="Percent" /></item_display_info>
+		<item_display_info display_type="clothingHazMat" display_group="groupAttire">
+			<display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" />
+			<display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist" />
+			<display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statElementalDamageResist" />
+		</item_display_info>
+		<item_display_info display_type="clothingShades" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="symbol_perception" title_key="statShowPerception" display_leading_plus="true" tags="attPerception" /></item_display_info>
+		<item_display_info display_type="apparelToughGuySunglasses" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="symbol_fortitude" title_key="statShowFortitude" display_leading_plus="true" tags="attFortitude" /></item_display_info>
+		<item_display_info display_type="clothingAviatorGoggles" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="LootGamestage" max="5" icon="symbol_box" title_key="statLootGamestage" display_leading_plus="true" display_type="Decimal1" string_format="0.#" />
+	<display_entry name="dTreasureBlocksPerReduction" max="1" icon="ui_game_symbol_treasure" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="clothingSkiGoggles" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="ui_game_symbol_agility" title_key="statShowAgility" display_leading_plus="true" tags="attAgility" /></item_display_info>
+		<item_display_info display_type="clothingNerdGlasses" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="symbol_intellect" title_key="statShowIntellect" display_leading_plus="true" tags="attIntellect" />
+	<display_entry name="dCraftingTime" max="10" icon="symbol_timer" title_key="statCraftingTime" display_leading_plus="true" display_type="Percent" negative_preferred="true" />
+	<display_entry name="dPlayerExpGain" max="10" icon="ui_game_symbol_xp" title_key="statShowPlayerExpGain" display_leading_plus="true" display_type="Percent" /></item_display_info>
+		<item_display_info display_type="clothingBarter" display_group="groupAttire">
+			<display_entry name="Bartering" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+		</item_display_info>
+		<item_display_info display_type="clothingToughGuy" display_group="groupAttire">
+			<display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" />
+			<display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist" />
+			<display_entry name="dHealthMax" title_key="statHealthAmount" display_leading_plus="true" />
+		</item_display_info>
+
+		<item_display_info display_type="clothingGhillie" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" ignore_player="true" />
+	<display_entry name="dLightMultiplier" max="7" icon="symbol_ninja" title_key="statVisibility" display_leading_plus="true" display_type="Percent" show_inverted="false" negative_preferred="true" />
+	<display_entry name="#dNoiseMultiplier" max="5" icon="symbol_noise" title_key="statNoiseReduction" display_leading_plus="true" display_type="Percent" show_inverted="false" negative_preferred="true" /></item_display_info>
+		<item_display_info display_type="clothingGhillieHood" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="HypothermalResist" max="25" icon="symbol_cold" title_key="statResistCold" ignore_player="true" />
+    <display_entry name="HyperthermalResist" max="25" icon="symbol_heat" title_key="statResistHeat" ignore_player="true" />
+	<display_entry name="dLightMultiplier" max=".7" icon="symbol_ninja" title_key="statVisibility" display_leading_plus="true" display_type="Percent" show_inverted="false" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="clothingCigar" display_group="groupAttire"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="ui_game_symbol_muscle" title_key="statShowStrength" display_leading_plus="true" tags="attStrength" />
+	<display_entry name="BarteringBuying" max="10" icon="symbol_map_trader" title_key="statBarteringSellBuy" display_leading_plus="true" display_type="Percent" ignore_player="true" /></item_display_info>
+
+		<item_display_info display_type="water" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+		</item_display_info>
+
+		<item_display_info display_type="waterDysentery" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dDysenteryRisk" max="12" icon="symbol_dysentery" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="waterGoldenrod" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dCureDysentery" max="20" icon="symbol_dysentery_cure" title_key="statCureDysentery" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="waterRedTea" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dEfficientDigestion" icon="symbol_stomach" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterGoldenrodRedTea" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dCureDysentery" max="20" icon="symbol_dysentery_cure" title_key="statCureDysentery" display_type="Percent" />
+	<display_entry name="dEfficientDigestion" icon="symbol_stomach" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterCoffee" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dHypothermalResist" icon="symbol_cold" title_key="statHypothermalResist" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterMegaCrush" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dRunSpeed" icon="ui_game_symbol_run" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterBeer" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamageBrawling" icon="ui_game_symbol_boxer" title_key="statEntityDamageBrawling" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dStunResist" icon="ui_game_symbol_stunned" title_key="statStunResist" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterGrandpasMoonshine" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamage" icon="symbol_damage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="dStunResist" icon="ui_game_symbol_stunned" title_key="statStunResist" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" display_leading_plus="true" />
+	<display_entry name="dHealthLoss" icon="symbol_bleed" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterGrandpasAwesomeSauce" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dBartering" icon="symbol_coins" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="waterGrandpasLearningElixir" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dPlayerExpGain" icon="ui_game_symbol_xp" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="food" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name=".foodStaminaBonusAdd" icon="symbol_lightning" title_key="statFoodStaminaBonus" /></item_display_info>
+
+		<item_display_info display_type="foodRaw" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name="dDysenteryRisk" max="12" icon="symbol_dysentery" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="foodCureInfection" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name="dCureInfection" icon="symbol_infection" title_key="statCureInfection" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="foodWater" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name=".foodStaminaBonusAdd" icon="symbol_lightning" title_key="statFoodStaminaBonus" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" /></item_display_info>
+
+		<item_display_info display_type="foodWaterRaw" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" /></item_display_info>
+
+		<item_display_info display_type="foodWaterNegative" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name=".foodStaminaBonusAdd" icon="symbol_lightning" title_key="statFoodStaminaBonus" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" /></item_display_info>
+
+		<item_display_info display_type="foodShamChowder" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name=".foodStaminaBonusAdd" icon="symbol_lightning" title_key="statFoodStaminaBonus" />
+	<display_entry name="dFortitude" icon="symbol_fortitude" title_key="statShowFortitude" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="foodPumpkinCheesecake" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name=".foodStaminaBonusAdd" icon="symbol_lightning" title_key="statFoodStaminaBonus" />
+	<display_entry name="dBartering" icon="symbol_coins" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drinkYuccaSmoothie" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dStaminaRegen" max="60" icon="symbol_lightning" title_key="statStaminaRegen" display_type="Percent" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="foodHealthAmount" icon="ui_game_symbol_add" title_key="statHealthAmount" />
+	<display_entry name="dHypothermalResist" icon="symbol_cold" title_key="statHypothermalResist" display_leading_plus="true" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="foodWaterOnlyRaw" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" /></item_display_info>
+
+		<item_display_info display_type="cureInfection" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dCureInfection" icon="symbol_infection" title_key="statCureInfection" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="medical" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="foodHealthAmount" max="100" icon="symbol_healer" title_key="statHealthAmount" />
+	<display_entry name="dhealAbrasionMult" max="4" suffix="x" icon="ui_game_symbol_abrasion" title_key="statHealAbrasionMult" />
+	<display_entry name="dStopsBleeding" icon="symbol_bleed" title_key="statStopsBleeding" display_type="Bool" />
+	<display_entry name="dStopsLaceration" icon="ui_game_symbol_critical" title_key="statStopsLaceration" display_type="Bool" />
+	<display_entry name="dStopsBrokenLimbs" icon="ui_game_symbol_brokenbone" title_key="statStopsBrokenLimbs" display_type="Bool" /></item_display_info>
+
+		<item_display_info display_type="medicalFirstAidKit" display_group="groupConsumables">
+			<display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+			<display_entry name="dhealAbrasionMult" title_key="statHealAbrasionMult" display_type="Percent" />
+			<display_entry name="dStopsBleeding" title_key="statStopsBleeding" display_type="Percent" />
+			<display_entry name="dStopsLaceration" title_key="statStopsLaceration" display_type="Percent" />
+		</item_display_info>
+
+		<item_display_info display_type="medicalVitamins" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dDiseaseResist" icon="symbol_bacteria" title_key="statDiseaseResist" display_type="Percent" />
+	<display_entry name="dStopsWeakness" icon="ui_game_symbol_fatigued" title_key="statStopsWeakness" display_type="Percent" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="medicalPainkillers" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dInstantHealth" icon="ui_game_symbol_add" title_key="statShowInstantHealth" />
+	<display_entry name="dHealthLoss" icon="symbol_bleed" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dStunResist" icon="ui_game_symbol_stunned" title_key="statStunResist" display_type="Percent" />
+	<display_entry name="dStopsConcussion" icon="ui_game_symbol_concussion" title_key="statStopsConcussion" display_type="Percent" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="sewingKit" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dStopsBleeding" icon="symbol_bleed" title_key="statStopsBleeding" display_type="Percent" />
+	<display_entry name="dStopsLaceration" icon="ui_game_symbol_laceration" title_key="statStopsLaceration" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="drugSteroids" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dCarryCapacity" icon="symbol_backpack" title_key="statCarryCapacity" display_leading_plus="true" />
+<!--<display_entry name="dRunSpeed"                                     icon="ui_game_symbol_run"           title_key="statRunSpeed"				display_type="Percent" display_leading_plus="true"/>-->
+<!--<display_entry name="$waterAmountAdd"								icon="symbol_water"                 title_key="statWaterAmount"				show_inverted_fill="true"/>-->
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugRecog" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamage" icon="symbol_damage" title_key="statEntityDamageRanged" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugFortBites" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dHealthLoss" icon="symbol_bleed" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$waterAmountAdd" max="60" icon="symbol_water" title_key="statWaterAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugAtomJunkies" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dExDamageEntity" icon="symbol_explosion" title_key="statEntityDamageExplosion" display_leading_plus="true" display_type="Percent" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugCovertCats" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamageSneak" icon="symbol_damage" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugEyeKandy" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dLootGamestageFlat" icon="symbol_scavenger" title_key="statLootGamestage" display_leading_plus="true" />
+	<display_entry name="dLootGamestagePerc" icon="symbol_scavenger" title_key="statLootGamestage" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugHackers" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dHarvestSalvage" icon="ui_game_symbol_misc_crafting" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugHealthBar" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dMaxHealthBonus" icon="ui_game_symbol_add" title_key="statMaxHealthBonus" display_leading_plus="true" />
+	<display_entry name="dBuffResistance" icon="symbol_armor" title_key="statBuffResistance" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="dNaturalCritHealing" icon="symbol_bleed" title_key="statNaturalCritHealing" display_type="Percent" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugJailBreakers" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dLockPickTier" icon="symbol_lockpick" title_key="statLockpicking" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugNerdTats" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dShockAOERadius" icon="symbol_lightning" title_key="statShockAOERadius" display_type="Decimal2" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugOhShitzDrops" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dFallDamage" icon="symbol_springed_hare" title_key="statFallDamage" display_type="Percent" negative_preferred="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugRockBusters" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dHarvestMining" icon="symbol_pickaxe" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugSkullCrushers" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dEntityDamage" icon="ui_game_symbol_sledge" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<item_display_info display_type="drugSugarButts" display_group="groupConsumables"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dBarteringSellBuy" icon="symbol_coins" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="$foodAmountAdd" icon="symbol_food" title_key="statFoodAmount" />
+	<display_entry name="dDuration" suffix=" min" icon="symbol_timer" title_key="statDuration" display_type="Time" /></item_display_info>
+
+		<!-- UNODIR every block will show this display -->
+		<item_display_info display_type="defaultBlock" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" /> <!-- will show 0 or 1 without show_bool -->
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockFallDamage" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" />
+	<display_entry name="FallDamage" icon="symbol_splint" title_key="statFallDamage" display_type="Percent" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="blockHardened" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockHardenedMulti" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockMulti" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockShootThrough" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" />
+	<display_entry name="canShootThrough" icon="symbol_shoot_through" title_key="statCanShootThrough" display_type="Bool" /></item_display_info>
+		<item_display_info display_type="blockShootThroughHardened" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" />
+	<display_entry name="canShootThrough" icon="symbol_shoot_through" title_key="statCanShootThrough" display_type="Bool" /></item_display_info>
+
+		<item_display_info display_type="blockElectrical" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="RequiredPower" icon="symbol_lightning" title_key="statRequiredPower" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockElectricalHardened" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" />
+	<display_entry name="RequiredPower" icon="symbol_lightning" title_key="statRequiredPower" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockElectricalMulti" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="RequiredPower" icon="symbol_lightning" title_key="statRequiredPower" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockElectricalHardenedMulti" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilitySupport" icon="symbol_support_vertical" title_key="statStabilitySupport" display_type="Bool" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" />
+	<display_entry name="RequiredPower" icon="symbol_lightning" title_key="statRequiredPower" />
+	<display_entry name="LightOpacity" icon="symbol_light" title_key="statLightOpacity" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="blockTerrain" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" /></item_display_info>
+
+		<item_display_info display_type="blockTerrainFertile" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="FertileLevel" icon="ulm_symbol_seedling" title_key="FertileLevel" /></item_display_info>
+
+		<item_display_info display_type="blockTerrainHardened" display_group="groupBlocks"><!--Element contents replaced by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="MaxDamage" icon="symbol_durability" title_key="statMaxDamage" />
+	<display_entry name="StabilityGlue" icon="symbol_support_horizontal" title_key="statStabilityGlue" />
+	<display_entry name="Mass" icon="symbol_mass" title_key="statLoad" negative_preferred="true" />
+	<display_entry name="ExplosionResistance" icon="symbol_explosion_resistance" title_key="statExplosionResistance" display_type="Percent" /></item_display_info>
+
+		<item_display_info display_type="toolAnvil" display_group="workstationTools">
+			<display_entry name="dCraftingTime" title_key="statCraftingTimeForge" display_type="Percent" display_leading_plus="true" negative_preferred="false" />
+		</item_display_info>
+		<item_display_info display_type="toolBellows" display_group="workstationTools">
+			<display_entry name="dCraftingSmeltTime" title_key="statCraftingSmeltTime" display_type="Percent" display_leading_plus="true" negative_preferred="false" />
+		</item_display_info>
+
+	
+
+<item_display_info display_type="modArmorChitin" display_group="modAttire"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="PhysicalDamageResist" max="2" icon="symbol_shield" title_key="statPhysicalDamageResist" display_type="Decimal1" />
+    <display_entry name="ResistPoison" max="15" icon="symbol_poison" title_key="statResistPoison" display_type="Decimal1" /></item_display_info>
+
+<item_display_info display_type="modArmorHolster" display_group="modAttire"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="@$ulmBuffChestHolsterValue" suffix=" %" icon="symbol_attack_speed" title_key="statPistolReloadSpeed" display_leading_plus="true" string_format="0.#" /></item_display_info>
+
+<item_display_info display_type="ulmModBowArrowRest" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dWeaponAccuracy" max="25" icon="symbol_aim" title_key="statAccuracy" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModPolymerString" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dProjectileVelocity" max="25" icon="symbol_velocity" title_key="statProjectileVelocity" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModMuzzleBrake" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dGunRecoil" max="30" icon="symbol_recoil" title_key="statRecoil" display_type="Percent" show_inverted_fill="true" negative_preferred="true" /></item_display_info>
+
+<item_display_info display_type="ulmModRetractingStock" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dSpreadMultiplierHip" max="20" icon="symbol_handling" title_key="statHandling" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModFiremansAxe" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dBlockDamage" max="30" icon="symbol_damage_block" title_key="statBlockDamage" display_leading_plus="true" display_type="Percent" />
+	 <display_entry name="#dEntityDamage" max="30" icon="symbol_damage" title_key="statEntityDamage" display_leading_plus="true" display_type="Percent" show_inverted_fill="true" /></item_display_info>
+
+<item_display_info display_type="ulmModExoticMetal" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dEntityDamage" max="25" icon="symbol_damage" title_key="statDamageUndead" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModTheHunter" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dEntityDamage" max="40" icon="symbol_damage" title_key="statDamageAnimals" display_leading_plus="true" display_type="Percent" /></item_display_info>
+	
+<item_display_info display_type="ulmModBunkerBuster" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dDamageModifier" max="30" icon="symbol_damage" title_key="statDamageStone" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModIronBreaker" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dDamageModifier" max="30" icon="symbol_damage" title_key="statDamageMetal" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModWoodSplitter" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dDamageModifier" max="30" icon="symbol_damage" title_key="statDamageWood" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModGraveDigger" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dDamageModifier" max="30" icon="symbol_damage" title_key="statDamageDirt" display_leading_plus="true" display_type="Percent" /></item_display_info>
+
+<item_display_info display_type="ulmModDiamondTip" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dDegradationPerUse" max="60" icon="symbol_durability" title_key="statDegradationPerUse" display_type="Percent" show_inverted_fill="true" negative_preferred="true" /></item_display_info>
+
+<item_display_info display_type="ulmModTemperedBlade" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	 <display_entry name="#dBlockDamage" max="15" icon="symbol_damage_block" title_key="statBlockDamage" display_leading_plus="true" display_type="Percent" />
+	 <display_entry name="#dDegradationPerUse" max="20" icon="symbol_durability" title_key="statDegradationPerUse" display_type="Percent" show_inverted_fill="true" negative_preferred="true" /></item_display_info>
+		
+<item_display_info display_type="ulmModMagazineExtender" display_group="groupModRanged"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dMagazineSize" max="120" icon="symbol_ammo_clip" title_key="statMagazineSize" display_leading_plus="true" display_type="Percent" />
+	<display_entry name="#dReloadSpeed" max="30" icon="symbol_attack_speed" title_key="statReloadSpeed" display_leading_plus="true" display_type="Percent" negative_preferred="true" /></item_display_info>
+						
+<!-- Batteries -->
+<item_display_info display_type="ulmBattery" display_group="groupBatteries"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_battery" title_key="statCondition" />
+	<display_entry name="PowerOutput" max="90" suffix=" W" icon="symbol_lightning" title_key="statPower" />
+<!--<display_entry name="dPowerEfficiency"				max="1"						icon="symbol_gauge"                 title_key="statPowerEfficiency"/>-->
+	</item_display_info>
+	
+<!-- Engines -->
+<item_display_info display_type="ulmEngine" display_group="groupEngines"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="PowerOutput" max="300" suffix=" W" icon="symbol_lightning" title_key="statPower" />
+	</item_display_info>
+	
+<!-- Solar -->
+<item_display_info display_type="ulmSolar" display_group="groupEngines"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+	<display_entry name="PowerOutput" max="80" icon="symbol_lightning" title_key="statPower" />
+	</item_display_info>
+
+<!-- Fuel -->
+<item_display_info display_type="ulmGasoline" display_group="groupGasoline"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_gasoline" title_key="statFuel" />
+	<display_entry name="dFuelEfficiency" max="15" icon="symbol_gauge" title_key="statEfficiency" />
+	</item_display_info>
+
+<!-- Workstation Tool -->
+<item_display_info display_type="toolWorkstation" display_group="workstationTools"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dCraftingTime" max="40" icon="symbol_timer" title_key="statCraftingSpeed" display_type="Percent" display_leading_plus="true" negative_preferred="false" />
+	</item_display_info>
+
+<!-- Workstation Tool -->
+<item_display_info display_type="vehicle" display_group="groupDeployable"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="Condition" icon="symbol_durability" title_key="statCondition" />
+<!--<display_entry name="DegradationMax"				max="30000"					icon="symbol_durability"			title_key="statDurabilityMax"/>-->
+	<display_entry name="^VehicleSpeed" max="85" suffix=" KM/H" icon="symbol_gauge" title_key="uiVehicleSpeed" display_type="Decimal1" string_format="0.#" />
+	<display_entry name="^VehicleTurbo" max="85" suffix=" KM/H" icon="symbol_gauge_max" title_key="uiVehicleSpeedTurbo" display_type="Decimal1" string_format="0.#" />
+	<display_entry name="^VehicleTank" max="1000" icon="symbol_gasoline" title_key="uiVehicleTank" />
+	<display_entry name="^VehicleFuelUse" max="2" suffix=" KM/L" icon="symbol_gasoline" title_key="uiVehicleFuelEfficiency" display_type="Decimal1" />
+	<display_entry name="^VehicleSlots" max="162" icon="symbol_weight" title_key="uiVehicleSlots" />
+	<display_entry name="VehicleCargoCapacity" max="3000" icon="symbol_weight" title_key="uiVehicleCargo" />
+	<display_entry name="^VehicleSeats" max="8" icon="ui_game_symbol_player" title_key="uiVehicleSeats" />
+	</item_display_info>
+	
+
+<item_display_info display_type="curePoison" display_group="groupConsumables"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="dCurePoison" icon="symbol_poison" title_key="statPoisonCure" display_type="Percent" />
+	</item_display_info>
+
+<!-- Item Mods -->
+
+<item_display_info display_type="modArmorRadio" display_group="modAttire"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dBroadcastRange" max="9" icon="ui_game_symbol_broadcast_on" title_key="uiBroadcastRange" display_leading_plus="true" display_type="Decimal1" string_format="0.#" />
+	</item_display_info>
+	
+<item_display_info display_type="modTrinket" display_group="groupAttire"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="AttributeLevel" max="1" icon="symbol_fortitude" title_key="statShowFortitude" display_leading_plus="true" tags="attFortitude" />
+	<display_entry name="LootGamestage" max="10" icon="symbol_box" title_key="statLootGamestage" display_leading_plus="true" display_type="Decimal1" />
+	</item_display_info>
+
+<item_display_info display_type="modVehicleCargo" display_group="groupVehicleMods"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="VehicleCargoCapacity" max="200" icon="symbol_backpack" title_key="statVehicleCargoCapacity" display_leading_plus="true" />
+	</item_display_info>
+
+<item_display_info display_type="modVehicleLights" display_group="groupVehicleMods"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="LightIntensity" max="120" icon="ui_game_symbol_lightbulb" title_key="statVehicleLightIntensity" display_type="Percent" display_leading_plus="true" />
+	</item_display_info>
+	
+<item_display_info display_type="modVehicleFuelTank" display_group="groupVehicleMods"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="VehicleFuelMaxPer" max="50" icon="symbol_gasoline" title_key="uiVehicleTank" display_type="Percent" display_leading_plus="true" />
+	</item_display_info>
+
+<item_display_info display_type="modVehicleFuelUse" display_group="groupVehicleMods"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="VehicleFuelUsePer" max="50" icon="symbol_gasoline" title_key="uiVehicleFuelEfficiency" display_type="Percent" display_leading_plus="true" />
+	</item_display_info>
+	
+<item_display_info display_type="modVehicleTurbo" display_group="groupVehicleMods"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="VehicleVelocityMaxPer" max="25" icon="symbol_gauge" title_key="uiVehicleSpeed" display_type="Percent" display_leading_plus="true" />
+	<display_entry name="VehicleVelocityMaxTurboPer" max="15" icon="symbol_gauge_max" title_key="uiVehicleSpeedTurbo" display_type="Percent" display_leading_plus="true" />
+	</item_display_info>
+	
+<item_display_info display_type="modBlessedMetal" display_group="groupAttire"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+    <display_entry name="EntityDamage" max="100" icon="symbol_damage" title_key="statDamageUndead" display_type="Percent" display_leading_plus="true" ignore_player="true" /></item_display_info>
+
+<item_display_info display_type="modChainsawChain" display_group="groupChainsaw"><!--Element appended by: "UndeadLegacy_CoreModule"-->
+	<display_entry name="#dDamage" max="100" icon="symbol_damage" title_key="statDamage" display_leading_plus="true" display_type="Percent" show_inverted_fill="true" /></item_display_info>
+
+</item_display>
+
+	<character_stat_display>
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='HealthMaxBlockage']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='StaminaMaxBlockage']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='PhysicalDamageResist']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='ElementalDamageResist']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='BuffResistance']")-->
+		<!-- <display_entry name="BuffResistance" title_key="total crit resist" display_type="Percent" tags="buffLaceration"/>-->
+		<display_entry name="StaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+		<display_entry name="HealthChangeOT" title_key="statHealthChangeOT" display_type="Decimal2" />
+		<display_entry name="HealthMaxModifierOT" title_key="statHealthMaxModifierOT" display_type="Decimal2" />
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='HypothermalResist']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='HyperthermalResist']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='Mobility']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='JumpStrength']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='CarryCapacity']")-->
+		<!--
+		<display_entry name="LootGamestage" title_key="statLootGamestage"/>
+		<display_entry name="TreasureRadius" title_key="statTreasureRadius"/>
+		<display_entry name="CraftingTier" title_key="statCraftingTier"/>
+		<display_entry name="PlayerExpGain" title_key="statPlayerExpGain" display_type="Percent"/>-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='EntityDamage']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='BlockDamage']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='RoundsPerMinute']")-->
+		<!--Element removed by: "UndeadLegacy_CoreModule" (XPath: "/ui_display_info/character_stat_display/display_entry[@name='AttacksPerMinute']")-->
+
+		<!--
+		<display_entry name="HealthChangeOT" title_key="statJumpStrength" display_type="Percent"/>
+
+		<display_entry name="BuffResistance" title_key="statArmorResistStun" display_type="Percent"/>
+		<display_entry name="BuffResistance" title_key="statArmorResistBleed" display_type="Percent" tags="buffInjuryBleeding"/>
+		<display_entry name="BuffResistance" title_key="statArmorResistInfection" display_type="Percent" tags="buffInfectionCatch"/>
+		-->
+	</character_stat_display>
+
+	<crafting_category_display>
+
+		<crafting_category_list display_type=""><!--Element contents replaced by: "UndeadLegacy_ContentModule01"-->
+<!--<crafting_category icon="symbol_all"					display_name="groupAll"					name=""/>-->
+	<crafting_category icon="symbol_backpack" display_name="lblCategoryBasics" name="Basics" />
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" /></crafting_category_list>
+
+		<crafting_category_list display_type="forge">
+			<!-- <crafting_category name="" icon="ui_game_symbol_forge" display_name="lblAll" /> -->
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<!-- <crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" /> -->
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<!-- <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" /> -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="campfire"><!--Element contents replaced by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_food" display_name="lblCategoryFood" name="Food" />
+	<crafting_category icon="symbol_drink" display_name="groupDrinks" name="Drinks" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstationTools" name="WorkstationTools" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" /></crafting_category_list>
+
+		<crafting_category_list display_type="workbench">
+			<!-- <crafting_category name="" icon="ui_game_symbol_workbench" display_name="lblAll" /> -->
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+			<crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+			<crafting_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
+			<crafting_category name="Clothing" icon="ui_game_symbol_shirt" display_name="lblCategoryClothing" />
+			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+			<!-- <crafting_category name="Vehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" /> -->
+		</crafting_category_list>
+
+		<crafting_category_list display_type="cementMixer">
+			<crafting_category name="" icon="ui_game_symbol_cement" display_name="lblCategoryCementMixer" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="chemistryStation">
+			<!-- <crafting_category name="" icon="ui_game_symbol_chemistry" display_name="lblAll" /> -->
+			<crafting_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="tableSaw">
+			<!-- <crafting_category name="" icon="ui_game_symbol_table_saw" display_name="lblAll" /> -->
+			<crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+			<!-- <crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" /> -->
+			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+		</crafting_category_list>
+
+	
+
+<crafting_category_list display_type="ulmStationWorkbench_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+<!--<crafting_category icon="symbol_structural"				display_name="groupBlocks"				name="!Storage,!Workstations,!Traps,!Electrical,!Collectors,!Doors,Blocks"/>-->
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" />
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupFurniture" name="!Storage,Furniture,RoadProps,Signs" />
+	<crafting_category icon="symbol_electrical" display_name="groupElectrical" name="Electrical" />
+	<crafting_category icon="symbol_pump" display_name="groupCollectors" name="Collectors" />
+	<crafting_category icon="ui_game_symbol_door" display_name="groupDoors" name="Doors" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+<!--<crafting_category icon="ui_game_symbol_knife"			display_name="groupWeaponsTools"		name="Weapons/Tools"/>-->
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+<!--<crafting_category icon="ui_game_symbol_tool"			display_name="lblCategoryToolsTraps"	name="Tools/Traps"/>-->
+<!--<crafting_category icon="ui_game_symbol_science"		display_name="lblCategoryScience"		name="Science"/>-->
+<!--<crafting_category icon="ui_game_symbol_shirt"			display_name="lblCategoryClothing"		name="Clothing"/>-->
+<!--<crafting_category icon="ui_game_symbol_fork"			display_name="lblCategoryFoodCooking"	name="Food/Cooking"/>-->
+<!--<crafting_category icon="ui_game_symbol_4x4"			display_name="lblCategoryVehicles"		name="Vehicles"/>--></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationWorkbench_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" />
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupFurniture" name="!Storage,Furniture,RoadProps,Signs" />
+	<crafting_category icon="symbol_electrical" display_name="groupElectrical" name="Electrical" />
+	<crafting_category icon="symbol_pump" display_name="groupCollectors" name="Collectors" />
+	<crafting_category icon="ui_game_symbol_door" display_name="groupDoors" name="Doors" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="ui_game_symbol_knife" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationWorkbench_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" />
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupFurniture" name="!Storage,Furniture,RoadProps,Signs" />
+	<crafting_category icon="symbol_electrical" display_name="groupElectrical" name="Electrical" />
+	<crafting_category icon="symbol_pump" display_name="groupCollectors" name="Collectors" />
+	<crafting_category icon="ui_game_symbol_door" display_name="groupDoors" name="Doors" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="ui_game_symbol_knife" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationChemistry_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_consumables" display_name="groupConsumables" name="Consumables" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationChemistry_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_consumables" display_name="groupConsumables" name="Consumables" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationChemistry_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_consumables" display_name="groupConsumables" name="Consumables" /></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationTailor_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_bed" display_name="groupFurniture" name="Blocks" />
+	<crafting_category icon="ui_game_symbol_resource" display_name="groupResources" name="Resources" />
+	<crafting_category icon="ui_game_symbol_shirt" display_name="groupClothing" name="Apparel" />
+	<crafting_category icon="symbol_armor_medium" display_name="groupLightArmor" name="LightArmor" />
+<!--<crafting_category icon="symbol_armor_light"			display_name="groupLightArmor"			name="LightArmor"/>-->
+<!--<crafting_category icon="symbol_armor_medium"			display_name="groupMediumArmor"			name="MediumArmor"/>-->
+	<crafting_category icon="symbol_armor_heavy" display_name="groupHeavyArmor" name="HeavyArmor" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+<!--<crafting_category icon="symbol_cosmetic"				display_name="groupDyes"				name="DyeMods"/>--></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationArtisan_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_structural" display_name="groupBasicBlocks" name="!Crops,!Workstations,!Decor,Blocks" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupDecor" name="Decor" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" />
+	<crafting_category icon="ui_game_symbol_crops" display_name="groupCrops" name="Crops" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationArtisan_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_structural" display_name="groupBasicBlocks" name="!Crops,!Workstations,!Decor,Blocks" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupDecor" name="Decor" />
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="Workstations" />
+	<crafting_category icon="ui_game_symbol_crops" display_name="groupCrops" name="Crops" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationBallistics_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_machine_gun" display_name="groupWeapons" name="Weapons/Tools" />
+	<crafting_category icon="symbol_grenade" display_name="groupExplosives" name="CFExplosives" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmoStandard" name="CFAmmoStandard" />
+	<crafting_category icon="symbol_arrows" display_name="groupAmmoPrimitive" name="CFAmmoPrimitive" />
+	<crafting_category icon="symbol_turret" display_name="groupAmmoPortableTurret" name="CFAmmoTurret" />
+	<crafting_category icon="symbol_traps" display_name="groupTraps" name="Traps" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationBallistics_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="symbol_machine_gun" display_name="groupWeapons" name="Weapons/Tools" />
+	<crafting_category icon="symbol_grenade" display_name="groupExplosives" name="CFExplosives" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmoStandard" name="CFAmmoStandard" />
+	<crafting_category icon="symbol_arrows" display_name="groupAmmoPrimitive" name="CFAmmoPrimitive" />
+	<crafting_category icon="symbol_turret" display_name="groupAmmoPortableTurret" name="CFAmmoTurret" />
+	<crafting_category icon="symbol_traps" display_name="groupTraps" name="Traps" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+	</crafting_category_list>
+
+<crafting_category_list display_type="ulmStationDisassembly_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_recycle" display_name="ulmStationDisassembly_1" name="*" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationEvent_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" /></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationMortarAndPestle_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_mortar_and_pestle" display_name="groupAll" name="*" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationMechanic_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+	<crafting_category icon="ui_game_symbol_motorcycle" display_name="groupVehicles" name="Vehicles" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationMechanic_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+	<crafting_category icon="ui_game_symbol_4x4" display_name="groupVehicles" name="Vehicles" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationForge_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBlocks" name="Blocks" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationForge_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBlocks" name="Blocks" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationForge_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBlocks" name="Blocks" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationFurnace_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="ui_game_symbol_forge" display_name="groupAll" name="" />
+<!--<crafting_category icon="ui_game_symbol_resource"		display_name="lblCategoryResources"		name="Resources"/>
+	<crafting_category icon="ui_game_symbol_map_house"		display_name="lblCategoryBuilding"		name="Building"/>
+	<crafting_category icon="ui_game_symbol_knife"			display_name="lblCategoryAmmoWeapons"	name="Ammo/Weapons"/>
+	<crafting_category icon="ui_game_symbol_tool"			display_name="lblCategoryToolsTraps"	name="Tools/Traps"/>--></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationFurnace_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="ui_game_symbol_forge" display_name="groupAll" name="*" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationFurnace_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="ui_game_symbol_forge" display_name="groupAll" name="*" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationCarpenter_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBasicBlocks" name="!Storage,Blocks" />
+<!--<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture"/>-->
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationCarpenter_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBasicBlocks" name="!Storage,Blocks" />
+<!--<crafting_category icon="ui_game_symbol_chair"			display_name="groupFurniture"			name="!Storage,Furniture"/>-->
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+	
+<crafting_category_list display_type="ulmStationCarpenter_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_all" display_name="groupAll" name="*" />
+    <crafting_category icon="symbol_structural" display_name="groupBasicBlocks" name="!Storage,!Furniture,Blocks" />
+	<crafting_category icon="ui_game_symbol_chair" display_name="groupFurniture" name="!Storage,Furniture" />
+	<crafting_category icon="symbol_box" display_name="groupStorage" name="Storage" />
+	<crafting_category icon="ui_game_symbol_misc_crafting" display_name="groupResources" name="Resources" />
+	<crafting_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<crafting_category icon="symbol_ammo" display_name="groupAmmo" name="Ammo" /></crafting_category_list>
+    
+<crafting_category_list display_type="ulmStationResearch_1"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="BPWorkstations" />
+	<crafting_category icon="symbol_food" display_name="uiFoodAndDrinks" name="BPFood" />
+	<crafting_category icon="symbol_melee_tools" display_name="uiWeaponsMeleeAndTools" name="BPMelee" />
+	<crafting_category icon="symbol_pistol" display_name="uiWeaponsRanged" name="BPGuns" />
+	<crafting_category icon="symbol_grenade" display_name="uiExplosivesAndMines" name="BPExplosives" />
+	<crafting_category icon="symbol_armor_heavy" display_name="uiArmor" name="BPArmor" />
+    <crafting_category icon="ui_game_symbol_science" display_name="lblCategoryScience" name="BPScience" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationResearch_2"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="BPWorkstations" />
+	<crafting_category icon="symbol_food" display_name="uiFoodAndDrinks" name="BPFood" />
+	<crafting_category icon="symbol_melee_tools" display_name="uiWeaponsMeleeAndTools" name="BPMelee" />
+	<crafting_category icon="symbol_pistol" display_name="uiWeaponsRanged" name="BPGuns" />
+	<crafting_category icon="symbol_grenade" display_name="uiExplosivesAndMines" name="BPExplosives" />
+	<crafting_category icon="symbol_armor_heavy" display_name="uiArmor" name="BPArmor" />
+    <crafting_category icon="ui_game_symbol_science" display_name="lblCategoryScience" name="BPScience" /></crafting_category_list>
+
+<crafting_category_list display_type="ulmStationResearch_3"><!--Element appended by: "UndeadLegacy_ContentModule01"-->
+<!--<crafting_category icon="symbol_science"				display_name="uiAllResearch"			name="*"/>-->
+<!--<crafting_category icon="symbol_ammo"					display_name="uiAmmunition"				name="BPAmmo"/>-->
+<!--<crafting_category icon="symbol_science"				display_name="uiMiscellaneous"			name="BPMisc"/>-->
+	<crafting_category icon="symbol_vice" display_name="groupWorkstations" name="BPWorkstations" />
+	<crafting_category icon="symbol_food" display_name="uiFoodAndDrinks" name="BPFood" />
+	<crafting_category icon="symbol_melee_tools" display_name="uiWeaponsMeleeAndTools" name="BPMelee" />
+	<crafting_category icon="symbol_pistol" display_name="uiWeaponsRanged" name="BPGuns" />
+	<crafting_category icon="symbol_grenade" display_name="uiExplosivesAndMines" name="BPExplosives" />
+	<crafting_category icon="symbol_armor_heavy" display_name="uiArmor" name="BPArmor" />
+    <crafting_category icon="ui_game_symbol_science" display_name="lblCategoryScience" name="BPScience" /></crafting_category_list>
+	
+</crafting_category_display>
+
+	<trader_category_display><!--Element contents replaced by: "UndeadLegacy_ContentModule01"-->
+	<trader_category icon="ui_game_symbol_chair" display_name="groupDecorMisc" name="Decor/Miscellaneous" />
+	<trader_category icon="ui_game_symbol_science" display_name="groupScience" name="Science" />
+	<trader_category icon="ui_game_symbol_map_house" display_name="groupBuilding" name="Blocks" />
+	<trader_category icon="ui_game_symbol_resource" display_name="groupResources" name="Resources" />
+<!--<trader_category icon="ui_game_symbol_knife"			display_name="groupAmmoWeapons"			name="Ammo/Weapons"/>-->
+	<trader_category icon="symbol_ammo" display_name="groupAmmoAndExplosives" name="Ammo" />
+	<trader_category icon="symbol_weapons_and_tools" display_name="groupWeaponsTools" name="Weapons/Tools" />
+	<trader_category icon="ui_game_symbol_assemble" display_name="groupMods" name="Mods" />
+	<trader_category icon="ui_game_symbol_book" display_name="groupBooksAndSchematics" name="Books" />
+	<trader_category icon="symbol_armor_medium" display_name="groupClothingAndArmor" name="Clothing" />
+	<trader_category icon="symbol_consumables" display_name="groupConsumables" name="Consumables" />
+	<trader_category icon="symbol_car" display_name="groupVehicles" name="Vehicles" />
+	</trader_category_display>
+</ui_display_info>
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+This UI system can display all passive effects on an item - the base stats.
+
+It can also display CVARS that are added when using the item with these exact 2 actions:
+onSelfPrimaryActionEnd
+onSelfSecondaryActionEnd
+
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="14"/>
+
+The "name" is the name of the cvar.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+display_type="Integer"	;	The values are "Integer", "Decimal", "Bool", and "Percent"
+show_inverted="true"	;
+negative_preferred="true";	For item comparisons sometimes lower is better.
+
+-->
+
+
+
+
+<!--
+
+			<display_entry name="MaxRange" title_key="statMaxRange"/>
+			<display_entry name="KickDegreesHorizontal" title_key="statKickDegreesHorizontal"/>
+
+The 6th line on the UI displays no text, only a number.
+
+Shotgun ammo / shotguns display the damage per single ray.
+
+Values <1, like the recoil of a pistol (0.8) display as zero rounding down.
+Suggest rounding to nearest integer instead.
+
+
+Figure out a way to display these item stats and/or convert them to mineffects.
+<item name="ammoRocketHE">
+	<property class="Action1">
+		<property name="Class" value="Projectile"/>
+		<property name="Explosion.RadiusBlocks" value="5"/>
+		<property name="Explosion.BlockDamage" value="500"/>
+		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.EntityDamage" value="350"/>
+
+
+display_leading_plus="true"
+-->
