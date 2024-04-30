@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata>
-  <player platform="EOS" userid="00021a19789541d290150e93a880711d" playername="TheGreatChibus" lastlogin="2024-04-29 22:50:31">
+  <player platform="EOS" userid="00021a19789541d290150e93a880711d" playername="TheGreatChibus" lastlogin="2024-04-30 23:51:30">
     <acl platform="EOS" userid="0002d388c849411d9c9895119809fad5" />
     <acl platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" />
     <bedroll pos="2630,43,-1319" />
   </player>
-  <player platform="EOS" userid="0002d388c849411d9c9895119809fad5" playername="Aurum" lastlogin="2024-04-29 22:50:31">
+  <player platform="EOS" userid="0002d388c849411d9c9895119809fad5" playername="Aurum" lastlogin="2024-04-30 23:51:37">
     <acl platform="EOS" userid="00021a19789541d290150e93a880711d" />
+    <acl platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" />
     <bedroll pos="2623,43,-1387" />
   </player>
-  <player platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" playername="makemecry" lastlogin="2024-04-28 23:14:27">
+  <player platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" playername="makemecry" lastlogin="2024-04-30 23:51:37">
     <acl platform="EOS" userid="00021a19789541d290150e93a880711d" />
+    <acl platform="EOS" userid="0002d388c849411d9c9895119809fad5" />
     <bedroll pos="2623,43,-1389" />
   </player>
 </persistentplayerdata>
