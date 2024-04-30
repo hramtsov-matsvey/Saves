@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persistentplayerdata>
+  <player platform="EOS" userid="00021a19789541d290150e93a880711d" nativeplatform="Steam" nativeuserid="76561198139186073" playername="TheGreatChibus" lastlogin="2024-04-28 15:41:21" position="-495,61,443">
+    <acl platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" />
+    <acl platform="EOS" userid="0002d388c849411d9c9895119809fad5" />
+    <lpblock pos="-484,63,404" />
+    <questpositions>
+      <position id="-427996315" positiondatatype="0" pos="-544,66,484" />
+      <position id="-427996315" positiondatatype="2" pos="-352,39,646" />
+      <position id="-427996315" positiondatatype="7" pos="-331,63,694" />
+      <position id="-2123259955" positiondatatype="0" pos="-544,66,484" />
+      <position id="-2123259955" positiondatatype="2" pos="-957,75,1717" />
+    </questpositions>
+  </player>
+  <player platform="EOS" userid="00024efd84614e6d82e99b8a20bb0189" nativeplatform="Steam" nativeuserid="76561198302214436" playername="makemecry" lastlogin="2024-04-27 22:35:25" position="-545,66,484">
+    <acl platform="EOS" userid="00021a19789541d290150e93a880711d" />
+    <bedroll pos="-498,65,444" />
+  </player>
+  <player platform="EOS" userid="0002d388c849411d9c9895119809fad5" nativeplatform="Steam" nativeuserid="76561198997037265" playername="Aurum" lastlogin="2024-04-28 15:41:21" position="-496,61,446">
+    <acl platform="EOS" userid="00021a19789541d290150e93a880711d" />
+    <bedroll pos="-494,65,440" />
+  </player>
+</persistentplayerdata>
